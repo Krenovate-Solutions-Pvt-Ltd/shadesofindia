@@ -1,6 +1,11 @@
-site_name: Documentation Template
+site_name: Shade of India Documentation 
 nav:
-  -  Welcome:  'index.md'
+  -  Website Customization:  
+    - Intro:  'Website-Customization/Intro.md'
+    - Home:  'Website-Customization/Home.md'
+    - Footer:  'Website-Customization/Footer.md'
+    - Collection:  'Website-Customization/Collection.md'
+    - WC Lookbooks:  'Website-Customization/WC-lookbooks.md'
 theme:
   name: material
   features:
