@@ -18,6 +18,8 @@ Let's see the steps to create and maintain the footer for the website:
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Footer** -> This will take you to the customization page.
 
+    ![dashboard](images\Footer\dashboard.jpg)
+
 This section has 4 parts that need to be added. Let's discuss them one by one:
 
 ### **Columns**

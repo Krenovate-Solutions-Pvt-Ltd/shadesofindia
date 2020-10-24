@@ -16,6 +16,9 @@ Follow the below steps to create/update a Collection:
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Collection** -> This will take you to the customization page.
+
+    ![dashboard](images\Collection\dashboard.jpg)
+    
 5.  The following fields need to be filled:
 
     ![collection fields](images\Collection\collectionfields.jpg)
@@ -40,7 +43,7 @@ Follow the below steps to create/update a Collection:
                 ![slider create](images\Collection\slidercreate.jpg)
 
             -   **Image** : Select image from list.
-            -   ****Image Ordering** : This is the placement/sequence of the image in the slider. Always enter number value.
+            -   **Image Ordering** : This is the placement/sequence of the image in the slider. Always enter number value.
 
                 ![slider fields](images\Collection\sliderfields.jpg)
 

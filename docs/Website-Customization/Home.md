@@ -6,12 +6,18 @@ The Home page of the website is the area where snippets about the various produc
 
 In this section of the manual we will see how to add/edit/update the various sections of the Homepage.
 
-Follow the below steps:
+##  **Create Home**
+
+Follow the below steps to create/update the home section:
 
 1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin/
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Home** -> This will take you to the customization page.
+
+    ![dashboard](images\Home\dashboard.jpg)
+
+The home section has multiple sub-sections which need to be updated. We will discuss each one by one below:
 
 ### **Herosection**
 
