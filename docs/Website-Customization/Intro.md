@@ -2,7 +2,7 @@
 
 ##  **Introduction**
 
-This section is the first view which is visible when a customer visits the website.
+The Intro section is the first view which is visible when a customer visits the website.
 
 It provides a brief introduction to the idea behind the website in the form of an image or video.
 
@@ -12,6 +12,8 @@ This section shows the:
 *   Menu option
 
 ![intro](images\Intro\intro.jpg)
+
+##  **Create Intro**
 
 Below, we will see steps to add/edit/update the Intro section of the website:
 
@@ -34,7 +36,7 @@ Below, we will see steps to add/edit/update the Intro section of the website:
     ![select page](images\Intro\selectpage.jpg)
 
 
-##  **Intro Screen** : 
+###  **Intro Screen**
 
 Under this section, the following details can be edited:
 
@@ -51,6 +53,7 @@ Under this section, the following details can be edited:
         -   **Vimeo :** A video link from Vimeo can be inserted in the Desktop and Mobile fields.
 
             ![vimeo](images\Intro\vimeo.jpg)
+
 
         -   **Upload :** You can upload a video from the available list.
 
