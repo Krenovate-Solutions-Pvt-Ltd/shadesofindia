@@ -33,7 +33,9 @@ The Admin manual has been created for the Admin team of Shades of India. The pur
 
 This manual will provide step-by-step instructions for the below mentioned tasks:
 
-1.  [Website Customization](Website-Customization\Intro.md)
+1.  [**Website Customization**](Website-Customization\Intro.md)
+2.  [**Products**](Products\Introduction.md)
+
 
 
 

@@ -6,6 +6,10 @@ nav:
     - Footer: 'Website-Customization/Footer.md'
     - Collection: 'Website-Customization/Collection.md'
     - WC Lookbooks: 'Website-Customization/WC-lookbooks.md'
+  - Products: 
+    - Introduction: 'Products/Introduction.md'
+    - Simple Products: 'Products/Simple-Products.md'
+    - Variable Products: 'Products/Variable-Products.md'
 theme:
   name: material
   features:
