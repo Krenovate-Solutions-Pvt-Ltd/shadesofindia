@@ -56,6 +56,7 @@ The following fields need to be filled in this section:
 
 ![sfe fields](images\Home\sfefields.jpg)
 
+
 1.  **Section Title** : Enter the name to be given to this section.
 2.  **Section Title Color** : This is the color assigned to the Title text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **Black**.
 3.  **Section Body** : This is where the cards/blocks to be shown on the website homepage are defined. To do so, the following fields need to populated:
