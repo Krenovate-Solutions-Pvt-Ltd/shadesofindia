@@ -10,7 +10,7 @@ In this section of the manual, we will learn how to add/ edit a simple product t
 
 Adding a Simple product involves the below steps:
 
-1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin/
+1.  Go to -> [ShadesofIndia](https://newwebsite.shadesofindia.com/wp-admin/){:target="_blank"}
 2.  Login with the credentials
 3.  Click on **Products** on the left side panel.
 4.  Click -> **Add New**. This opens a new interface, where you can add Product name, description, product image, product category, tags etc. A sample screenshot is below:
@@ -24,19 +24,31 @@ Below, we will see how to add/edit each section for a simple product:
 The first step is to :
 
 ![add name](Images\Simple-Products\addname.jpg)
+
 *   **Add Name** : Provide a title for the product.
 *   **Add Descripton** : Provide a detailed description about the product. 
 
+The website look:
+
+![add name1](Images\Simple-Products\addname1.jpg)
     
 ### **Products Custom Fields**
 
-This section allows you to add customised details about the product. The options available are:
+This section allows you to add customised details about the product. These details can be seen on the single product page on the website. The options available are:
 
 ![custom fields](Images\Simple-Products\prodcustomfields.jpg)
 
-*   **Finer Details**
-*   **Size & Fit**
-*   **Delivery & Exchange**
+*   **Finer Details** - This field may include details related to the fabric used, care instructions, etc. Eg. below:
+
+    ![finer details](Images\Simple-Products\finerdetails.jpg)
+
+*   **Size & Fit** - Any instructions regarding the size and fit can be added here. Eg, below:
+
+    ![size fit](Images\Simple-Products\sizefit.jpg)
+
+*   **Delivery & Exchange** - This field contains information regarding shipping, return of product etc. Eg. below:
+
+    ![del return](Images\Simple-Products\delreturn.jpg)
 
 
 ### **Product Data**
@@ -45,7 +57,7 @@ The Product Data box is where the majority of important data is added for the pr
 
 Let's look at the options available.
 
-*   Under **Product Data** -> select **Simple Product** for the list.
+*   Under **Product Data** -> Select **Simple Product** from the list.
 
 ![prod data](Images\Simple-Products\proddata.jpg)
 
@@ -59,7 +71,7 @@ The General section is for configuring the regular and sale price and taxes of t
 
 *   **Price**
 
-    -   **Regular Price** - Item's normal or regular price
+    -   **Regular Price** - Item's normal or regular price. This shows along with the product on catalog page as well as the single product page.
     -   **Sale Price** - The sale price is for when you decide to run a discount campaign. Otherwise, shoppers will see the regular price.
 
 *   **Tax**
@@ -77,11 +89,11 @@ The inventory section allows you to manage stock for the product individually an
 
     -   **Stock management at product level is disabled** - You are responsible for updating the **Stock Status** manually.
 
-         ![inventory1](Images\Simple-Products\inventory1.jpg)
+         ![inventory1 disable](Images\Simple-Products\stkmngmtdisable.jpg)
 
     -   **Stock management at product level is enabled** - Below options need to be updated:
 
-        ![inventory](Images\Simple-Products\inventory.jpg)
+        ![inventory enable](Images\Simple-Products\stkmngmtenable.jpg)
 
         -   **Stock Quantity** : Enter the number of pieces available, and it will auto update as Stock, Out of Stock or On Backorder.
         -   **Allow Backorders** : Select the required option. 
@@ -116,20 +128,25 @@ Attributes are descriptors for a product. This tab will help you assign details 
 
     -   **Custom Product attribute** : These are added at the product level and won’t be available in layered navigation or other products.
 
-        :computer: [**How to add Custom Product Attributes**](https://docs.woocommerce.com/document/managing-product-taxonomies/#add-custom-attributes)
+        :computer: [**How to add Custom Product Attributes**](https://docs.woocommerce.com/document/managing-product-taxonomies/#add-custom-attributes) {:target="_blank"}
 
     -   **Global attribute sets already created** : These attributes once created will be available  in layered navigation or other products.
 
-        :computer: [**Learn to create Global Attributes**](https://docs.woocommerce.com/document/managing-product-taxonomies/#set-global-attributes)
+        :computer: [**Learn to create Global Attributes**](https://docs.woocommerce.com/document/managing-product-taxonomies/#set-global-attributes" target="_blank)
 
 -   Click on **Add**
 
     ![attributes](Images\Simple-Products\attributes.jpg)
-
--   Apply the terms/values attached to the attribute.
+    
+-   Apply the terms/values attached to the attribute. For simple products, mostly a single value is entered.
 -   Tick the **Visible on the product page** box - This will show the selected attribute on the product page.
 
-    ![attribute1](Images\Simple-Products\attribute1.jpg)
+    ![attribute1](Images\Simple-Products\attributes1.jpg)
+
+This is how an selected attribute looks on the product page:
+
+![attribute2](Images\Simple-Products\attribute2.jpg)
+
 
 
 ####    **Advanced**
@@ -150,7 +167,7 @@ In the short description box, write an engaging short description using the edit
 
 This is an excerpt which typically appears at a prominent spot next to product imagery on the listing page.
 
-![prodshotdesc](Images\Simple-Products\prodshotdesc.jpg)
+![prodshortdesc](Images\Simple-Products\prodshortdesc.jpg)
 
 ### **Right Side Panel - Add some finishing touches**
 
@@ -164,14 +181,18 @@ Categories can also be **reordered** by dragging and dropping – this order is 
 
 :computer: [How to add categories and sub-categories](https://docs.woocommerce.com/document/managing-product-taxonomies/#section-1)
 
-The customers will be able to use the categories on the front-end of the website store in the form of filters to find products.
+The customers will be able to use the categories on the front-end of the website store in the form of filters to find/shortlist products.
 
-![prodcat](Images\Simple-Products\prodcat.jpg)
+![prodcat2](Images\Simple-Products\prodcat2.jpg)
+
 
 1.  Go to -> **Product Categories**
 2.  Choose from existing categories and sub-categories.
 3.  Click -> **Add New Category** to add new names.
 
+This is how the category filter looks on the website:
+
+![cat filter](Images\Simple-Products\catfilter.jpg)
 
 ####    **Product Tags**
 
@@ -197,6 +218,10 @@ Colors help in organizing the products on the basis of color category/family. Th
 2.  Select from the existing list
 3.  Click -> **Add New Color** to add more choices
 
+The color filter on the website:
+
+![color filter](Images\Simple-Products\colorfilter.jpg)
+
 ####    **Materials**
 
 Materials help in organizing the products on the basis of material used (fabric, accessories). The customers will be able to use this as a material filter on the front-end of the website store to find products.
@@ -207,9 +232,9 @@ Materials help in organizing the products on the basis of material used (fabric,
 2.  Select from the existing list
 3.  Click -> **Add New Material** to add more choices
 
-The menu options - product categories, colors, material show on the website as filters to choose from. A snapshot for the same is below:
+The material filter looks as below:
 
-![rightsidefilters](Images\Simple-Products\rightsidefilters.jpg)
+![material filter](Images\Simple-Products\materialfilter.jpg)
 
 ####    **Product Image**
 
@@ -228,10 +253,9 @@ Follow the steps to add image:
 
     ![prodimage](Images\Simple-Products\prodimage.jpg)
 
-A snapshot of the product image on the website is below:
+A snapshot of the product image in the catalog on the website is below:
 
-![prodimage1](Images\Simple-Products\prodimage1.jpg)
-
+![prod image1](Images\Simple-Products\prodimage1.jpg)
 
 ####    **Product Gallery**
 
@@ -239,7 +263,7 @@ Product galleries display all images attached to a product through the Product G
 
 Follow the below steps to add gallery images:
 
-![prod gallery](Images\Simple-Products\prodgallery.jpg)
+![prod gallery](Images\Simple-Products\prodgallery.jpg) 
 
 1.  Go to -> **Product Gallery**
 2.  Click -> **Add product gallery image**
@@ -251,10 +275,10 @@ Follow the below steps to add gallery images:
 
 This is how the product gallery appears on the website single product page:
 
-![prodgalleryfinal](Images\Simple-Products\prodfinal.jpg)
+![prodgalleryfinal](Images\Simple-Products\prodgallery1.jpg)
 
-:computer: [**Common FAQs about images**](https://docs.woocommerce.com/document/adding-product-images-and-galleries/#section-9)
 
+>   **Note** - The first image in the Product Gallery is the same as the Product Image. Rest of the images are known as Gallery Images.
 
 ####    **Setting catalog visibility options and feature status**
 
@@ -277,6 +301,7 @@ Once you double-check that all of the product details are correct, you can:
 
     ![publish](Images\Simple-Products\publish.jpg)
 
+
     
 -   Click on **Update** button on the right side panel to save any edit done on existing entries.
 
@@ -288,4 +313,6 @@ Once you double-check that all of the product details are correct, you can:
 Once all the above changes are published or updated, the final look of the product page on the website is below:
 
 ![simpleprodfinal](Images\Simple-Products\simpleprodfinal.jpg)
+
+
 
