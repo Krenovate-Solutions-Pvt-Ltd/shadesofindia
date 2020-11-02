@@ -8,6 +8,7 @@ nav:
     - WC Lookbooks: 'Website-Customization/WC-lookbooks.md'
   - Products: 
     - Introduction: 'Products/Introduction.md'
+    - Add Products: 'Products/Add-Products.md'
     - Simple Products: 'Products/Simple-Products.md'
     - Variable Products: 'Products/Variable-Products.md'
 theme:
