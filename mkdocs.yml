@@ -9,8 +9,8 @@ nav:
   - Products: 
     - Introduction: 'Products/Introduction.md'
     - Add Products: 'Products/Add-Products.md'
-    - Simple Products: 'Products/Simple-Products.md'
-    - Variable Products: 'Products/Variable-Products.md'
+    - Bulk Import: 'Products/Bulk-Import.md'
+    - Bulk Export: 'Products/Bulk-Export.md'
 theme:
   name: material
   features:
