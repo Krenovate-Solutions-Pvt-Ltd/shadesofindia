@@ -12,7 +12,7 @@ In this part of the manual, we will see how we can create/maintain collection pa
 
 Follow the below steps to create/update a Collection:
 
-1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin/
+1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Collection** -> This will take you to the customization page.
@@ -22,6 +22,7 @@ Follow the below steps to create/update a Collection:
 5.  The following fields need to be filled:
 
     ![collection fields](images\Collection\collectionfields.jpg)
+    ![collection listing](images\Collection\collectionlisting.jpg)
 
     -   **Collection Name** : This is the name of the collection which shows on the main collection page. Eg. -Women's Clothing 
     -   **Collection Background Desktop** : This is the collection background image for desktop website. Click on 'Select Image'.
@@ -31,7 +32,8 @@ Follow the below steps to create/update a Collection:
     -   **Collection Background Mobile** : This is the collection background image for mobile website. Click on 'Select Image'.
     -   **Collection Listings** : These are the various collection categories/lists that show on the collections main page. Clicking on any of these categories, takes the visitor to the respective collection's product page. To create each listing, the below fields need to be filled:
 
-        ![listing fields](images\Collection\listingfields.jpg)
+        ![listing fields](images\Collection\collectionlistingfields.jpg)
+        ![listing fields1](images\Collection\collectionlistingfields1.jpg)
 
         -   **Select Category** : Select the category from list which needs to be listed on the collections page.
         -   **Collection Single Page Background Image - Desktop** :This is the category background image for desktop website. Click on 'Select Image'.
@@ -40,12 +42,12 @@ Follow the below steps to create/update a Collection:
 
             -   Click on **Create**
 
-                ![slider create](images\Collection\slidercreate.jpg)
+                ![slider create](images\Collection\imageslider.jpg)
 
             -   **Image** : Select image from list.
             -   **Image Ordering** : This is the placement/sequence of the image in the slider. Always enter number value.
 
-                ![slider fields](images\Collection\sliderfields.jpg)
+                ![slider fields](images\Collection\imagesliderfields.jpg)
 
         -   **Collection Quote Text** : Here a quote describing the category can be added.
         -   **Collection Quote Author** : Enter the Author name.

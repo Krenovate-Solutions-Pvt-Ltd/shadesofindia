@@ -10,7 +10,7 @@ In this section of the manual we will see how to add/edit/update the various sec
 
 Follow the below steps to create/update the home section:
 
-1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin/
+1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Home** -> This will take you to the customization page.
@@ -54,8 +54,7 @@ This section provides category-wise options (in cards/blocks form) to shoppers v
 
 The following fields need to be filled in this section:
 
-![sfe fields](images\Home\sfefields.jpg)
-
+![sfe fields](images\Home\sfefields1.jpg)
 
 1.  **Section Title** : Enter the name to be given to this section.
 2.  **Section Title Color** : This is the color assigned to the Title text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **Black**.
@@ -73,35 +72,40 @@ The following fields need to be filled in this section:
     -   **Button text color** : This is the color assigned to the category text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **White**.
     -   **Position** : This defines the placement of the category card. Position is always entered as number value.
 
-    ![sfe final](images\Home\sfefinal.jpg)
+The Something for Everyone section on the website home page appears as below:
+
+![sfe final](images\Home\sfefinal.jpg)
 
 
 ### **Quote**
 
-This is a section where a quote by the founder, designer is included on the website.
+The Quote section is where a quote/text by the founder, designer is included on the website.
 
 ![quote](images\Home\quote.jpg)
 
 To fill up this section, the following fields need to be populated:
 
-![quote fields](images\Home\quotefields.jpg)
+![quote fields](images\Home\quotefield1.jpg)
 
 1.  **Quote text** : Enter the quote here.
 2.  **Quote By** : Enter the author name in this field.
 3.  **Background color** : This is the color assigned to the quote background. The color is designated by "#' and a number (eg. #6b4b1c).
 4.  **Text Color** : This is the color assigned to the quote text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). 
 
+This is how the fields appear on the website:
+
 ![quote final](images\Home\quotefinal.jpg)
 
 ### **Women's Clothing**
 
-This section on the homepage, provides a sneak peek into the various collections available for women. Cards/Blocks are placed in this section, which when clicked, take the customer to the relevant collection product page.
+The Women's clothing section on the homepage, provides a sneak peek into the various collections available for women. Cards/Blocks are placed in this section, which when clicked, take the customer to the relevant collection product page.
 
 ![WC](images\Home\womensclothing.jpg)
 
 The following fields need to be filled to update this section:
 
-![fields](images\Home\wcfields.jpg)
+![fields](images\Home\womensclothingfld.jpg)
+![fields1](images\Home\womensclothingfld1.jpg)
 
 1.  **Section Background Color** : This is the color assigned to the section background as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). 
 2.  **Pre-Header** : Enter the required text here.
@@ -114,7 +118,7 @@ The following fields need to be filled to update this section:
 9.  **CTA URL** : Here, insert the URL, which will point to the respective location of the Button. If the location is not required, then enter "#" here.
 10. **Collections** : This is where the cards/blocks for different collections to be shown on the website homepage are defined. To do so, the following fields need to populated:
 
-    ![collections fields](images\Home\wccollectionsfields.jpg)
+    ![collections fields](images\Home\wccollections.jpg)
 
     -   **Select Category** : Choose from the list the collection name which is to be placed in the section. 
 
@@ -124,17 +128,21 @@ The following fields need to be filled to update this section:
     -   **Collection Name Text Color** : This is the color assigned to the collection name text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). By default the color is "white". 
     -   **Position** : This defines the placement of the collection card. Position is always entered as number value.
 
+Below is how the Women's Collection section on the website appears:
+
 ![wc final](images\Home\wcfinal.jpg)
 
 ### **Home & Living**
 
-This section on the homepage, provides a peek into the various collections available for a beautiful home. Cards/Blocks are placed in this section, where different products are tagged using lookbook ids.
+
+This section on the homepage, provides a peek into the various collections available for a beautiful home. Cards/Blocks are placed in this section, where different products are tagged using lookbook ids created in [**WC LookBooks**](WC-lookbooks.md).
 
 ![hl](images\Home\homeliving.jpg)
 
 To complete this section, the following fields need to be filled:
 
-![fields](images\Home\hlfields.jpg)
+![fields](images\Home\homelivingfields.jpg)
+![fields1](images\Home\homelivingfields1.jpg)
 
 1.  **Section Background Color** : This is the color assigned to the section background as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). 
 2.  **Pre-Header** : Enter the required text here.
@@ -147,23 +155,26 @@ To complete this section, the following fields need to be filled:
 9.  **CTA URL** : Here, insert the URL, which will point to the respective location of the Button. If the location is not required, then enter "#" here.
 10. **Section Images** : This is where the cards/blocks for different collections to be shown on the website homepage are defined. To do so, the following fields need to populated:
 
-    ![section](images\Home\hlsection.jpg)
+    ![section](images\Home\hlsectionimages.jpg)
 
-    -   **Lookbook Id** : This id is created in the [WC lookbooks](WC-lookbooks.md) and the id# generated should be pasted here.
+    -   **Lookbook Id** : This id is created in the [**WC lookbooks**](WC-lookbooks.md) and the id# generated should be pasted here.
     -   **Position** : This defines the placement of the collection card. Position is always entered as number value.
+
+The Home & Living website look is below:
 
 ![hl final](images\Home\hlfinal.jpg)
 
 
 ### **Travelogue**
 
-This section takes the customer on a travel adventure. It is weaved in the form of a slide show, giving knowledge about different designs from across the world.
+The Travelogue section takes the customer on a travel adventure. It is weaved in the form of a slide show, giving knowledge about different designs from across the world.
 
 ![travelogue](images\Home\travelogue.jpg)
 
 To complete this section, fill up the following fields:
 
 ![fields](images\Home\travelfields.jpg)
+![fields1](images\Home\travelfields1.jpg)
 
 1.  **Section Background Color** : This is the color assigned to the section background as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). 
 2.  **Pre-Header** : Enter the required text here.
@@ -187,18 +198,21 @@ To complete this section, fill up the following fields:
     -   **Position** : This defines the placement of the collection slide. Position is always entered as number value.
     -   **Image 2** : This is another image associated to the main image 1.
 
+The Travelogue slides on the website appear as below:
+
 ![travel final](images\Home\travelfinal.jpg)
 
 
 ### **Handpicked**
 
-This section provides some handpicked products in the form cards on the homepage for the customer's convenience. A click on any card, will take the visitor to the product description page.
+The Handpicked section provides shows few selected products in the form of cards on the homepage for the customer's convenience. A click on any card, will take the visitor to the product description page.
 
 ![handpicked](images\Home\handpicked.jpg)
 
 For this section, the below fields need to be filled:
 
-![fields](images\Home\hadnpickedfields.jpg)
+![fields](images\Home\handpickfields.jpg)
+![fields1](images\Home\handpickfields1.jpg)
 
 1.  **Section Background Color** : This is the color assigned to the section background as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). 
 2.  **Pre-Header** : Enter the required text here.
@@ -216,6 +230,7 @@ For this section, the below fields need to be filled:
     -   **Product ID** : Enter the respective product id here. **"Do not enter the Product SKU's here"**
     -   **Position** : This decides the placement of the product card in the section. Position is always entered as number value.
 
+The final look on the website is as below:
 
 ![final](images\Home\handpickedfinal.jpg)
 
@@ -227,11 +242,12 @@ This section gives an insight into the services offered by Shades of India. The 
 
 The following fields need to be updated for this section:
 
-![fields](images\Home\servicesfields.jpg)
+![service fields](images\Home\servicesfields.jpg)
 
 1.  **Services Wrapper** : This is the card which gives the name and a brief about the service being offered. Under this section the following fields need to be filled:
 
     ![wrapper](images\Home\serviceswrapper.jpg)
+    ![wrapper1](images\Home\serviceswrapper1.jpg)
 
     -   **Service Image** : This is image which represents the service offered. Select image from list.
     -   **Service Body Text** : This is a brief description about the service.
@@ -242,8 +258,9 @@ The following fields need to be updated for this section:
     -   **CTA URL** : Here, insert the URL, which will point to the respective location of the Button. If the location is not required, then enter "#" here.
     -   **Position** : This decides the placement of the product card in the section. Position is always entered as number value.
 
-![final](images\Home\servicesfinal.jpg)
+All the above defined fields appear as below on the website:
 
+![service final](images\Home\servicesfinal.jpg)
 
 ##  **Publish/Update**
 

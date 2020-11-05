@@ -13,7 +13,7 @@ The website footer is the section of content at the very bottom of the webpage. 
 
 Let's see the steps to create and maintain the footer for the website:
 
-1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin/
+1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Footer** -> This will take you to the customization page.
@@ -26,12 +26,12 @@ This section has 4 parts that need to be added. Let's discuss them one by one:
 
 Four columns of key information can be created here. Each column has the following fields that need to be filled:
 
-![column fields](images\Footer\columnfields.jpg)
+![column fields](images\Footer\column.jpg)
 
 1.  **Column Name** : This is the heading of the respective columns.
 2.  **Column Listing** : Each column can have multiple listings. To create lists, below fields need to be filled:
 
-    ![column listing](images\Footer\columnlisting.jpg)
+    ![column listing](images\Footer\columnlistingfields.jpg)
 
     -   **Column List Item** : This is the name of the list item.
     -   **Column List Item URL** : This is the URL which when clicked takes the visitor to the respective page. In place of entering the complete link, we have to enter the URL#. To copy this URL# follow the below steps:
@@ -54,7 +54,7 @@ Four columns of key information can be created here. Each column has the followi
 
 This column provides the option of subscribing to the newsletter. The following fields need to be filled:
 
-![subscribe fields](images\Footer\subscribefields.jpg)
+![subscribe fields](images\Footer\subscribe.jpg)
 
 1.  **Subscribe Title** : This is the heading of the column.
 2.  **Subscribe Text** : Here, a brief text about the subscription is mentioned.
@@ -63,7 +63,7 @@ This column provides the option of subscribing to the newsletter. The following 
 
 This is a line at the extreme bottom left panel of the footer. Add the below field:
 
-![copyright text](images\Footer\copyrighttext.jpg)
+![copyright text](images\Footer\copyrightfields.jpg)
 
 1.  **Copyright Text** : Enter the text required.
 

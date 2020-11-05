@@ -8,98 +8,140 @@ The Add products section of the Manual will cover steps which are common for all
 
 Adding a product involves the below steps:
 
-1.  Go to -> https://newwebsite.shadesofindia.com/wp-admin
+1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
 2.  Login with the credentials
 3.  Click on **Products** on the left side panel.
-4.  Click -> **Add New**. This opens a new interface, where you can add Product name, description, product image, product category, tags etc. A sample screenshot is below:
+4.  Click -> **All Products** - This will show the complete list of already existing products.
 
-    ![add new](Images\Simple-Products\addnewprod.jpg)
+    ![products](Images\products.jpg)
+
+5.  Click -> **Add New**. This opens a new interface, where you can add Product name, description, product image, product category, tags etc. A sample screenshot is below:
+
+    ![add new](Images\addnew.jpg)
+
+6.  To **Edit Existing Product** - hover over an existing product name and click - **Edit**
+
+    ![edit prod](Images\editprod.jpg)
 
 Below, we will see how to add/edit each section for a product:
 
-### **Product Name & Description**
+### **Product Name** 
 
-The first step is to :
+Firstly, a name for the product needs to be entered in the below field:
 
-![add name](Images\Simple-Products\addname.jpg)
+![Prod name](Images\prodname.jpg)
 
-*   **Add Name** : Provide a title for the product.
-*   **Add Descripton** : Provide a detailed description about the product. 
+*   **Name** : Enter Product name here. This is the name that shows next to the product on the website as below:
 
-The website look:
+    ![prod name1](Images\prodname1.jpg)
 
-![add name1](Images\Simple-Products\addname1.jpg)
+
+
+### **Product Description**
+
+*   **Add Descripton** : Provide a detailed description about the product. Use the content editor and tools to add and edit description. 
+
+    ![prod desc](Images\proddesc.jpg)
+
+    >   **Note: When adding/editing product manually, do it in "Visual" mode.**
+
+The product description on website:
+
+![prod desc1](Images\proddesc1.jpg)
     
 ### **Products Custom Fields**
 
 This section allows you to add customised details about the product. These details can be seen on the single product page on the website. The options available are:
 
-![custom fields](Images\Simple-Products\prodcustomfields.jpg)
 
-*   **Finer Details** - This field may include details related to the fabric used, care instructions, etc. Eg. below:
+####    **Finer Details** 
 
-    ![finer details](Images\Simple-Products\finerdetails.jpg)
+The finer details field may include details related to the fabric used, care instructions, etc. The below field should be edited:
 
-*   **Size & Fit** - Any instructions regarding the size and fit can be added here. Eg, below:
+![finer details](Images\finerdetails.jpg)
 
-    ![size fit](Images\Simple-Products\sizefit.jpg)
+The Finer details appear on the product page on website as below:
 
-*   **Delivery & Exchange** - This field contains information regarding shipping, return of product etc. Eg. below:
+![finer details1](Images\finerdetails1.jpg)
 
-    ![del return](Images\Simple-Products\delreturn.jpg)
+-   When description is added in the finer details field, two icons - **"Dry-clean only"**and **"Handcrafted"** appear automatically under the text on the product page.
+-   If no description is added, the finer details tab will not be visible on the product page.
+
+####    **Size & Fit** 
+
+Any instructions regarding the size and fit can be added here. The below field should be updated:
+
+![size fit](Images\sizefit.jpg)
+
+On the website product page look:
+
+![size fit1](Images\sizefit1.jpg)
+
+####    **Delivery & Exchange/Return** 
+
+This field contains information regarding shipping, return of product etc. Update the below fields:
+
+![del exc](Images\delexc.jpg)
+
+On the website product page, the tab appears as below:
+
+![del exc1](Images\delexc1.jpg)
+
+**Note** - When text is added in this field, a link for **Shipping & Returns** appears automatically. We cannot to edit this link.
 
 
 ### **Product Data**
 
 The Product Data box is where the majority of important data is added for the products. Here, you will select the product type and information about pricing, inventory, shipping etc.
 
-Let's look at the options available.
+Let's look at how to add/edit different types of products.
 
-*   Under **Product Data** -> Select **Product Type** from the list.
+####    **Simple Product Data**
+
+Below, we will see steps to add a Simple Product.
+
+*   Go to -> **Product Data** ->  **Product Type** -> Select **Simple Product**  from the list.
 
 ![prod data](Images\Simple-Products\proddata.jpg)
 
 Once the type of product is selected, information in various tabs needs to be added. We will discuss the tabs one by one:
 
-####   **General** 
+#####   **General** 
 
 The General section is for configuring the regular and sale price and taxes of the product.
 
-![general](Images\Simple-Products\general.jpg)
+![simple general](Images\simplegeneral.jpg)
 
 *   **Price**
 
     -   **Regular Price** - Item's normal or regular price. This shows along with the product on catalog page as well as the single product page.
-    -   **Sale Price** - The sale price is for when you decide to run a discount campaign. Otherwise, shoppers will see the regular price.
+    -   **Sale Price** - The sale price is for when you decide to run a discount campaign. If sale price entered, then a schedule has to be set.
+
+        -   **Schedule** - This allows to define a start and stop date for the sale.
+
+            ![schedule](Images\saleschedule.jpg)
 
 *   **Tax**
 
-    -   **Tax status** - Select whether or not the product is taxable.
-    -   **Tax class** - Choose the applicable tax class, if product is taxable.
+    -   **Tax status** - Always enter **Taxable**
+    -   **Tax class** - Choose the applicable tax class from list.
 
-####    **Inventory**
+#####    **Inventory**
 
 The inventory section allows you to manage stock for the product individually and define whether to allow back orders and more. It enables you to sell products and allow customers to add them to the cart to buy.
 
+![inventory enable](Images\simpleinventory.jpg)
+
 
 -   **SKU** - SKU is a unique identification number available on every product or service which simplifies inventory management. It can be entered manually or generated automatically.
--   **Manage stock?**
-
-    -   **Stock management at product level is disabled** - You are responsible for updating the **Stock Status** manually.
-
-         ![inventory1 disable](Images\Simple-Products\stkmngmtdisable.jpg)
-
-    -   **Stock management at product level is enabled** - Below options need to be updated:
-
-        ![inventory enable](Images\Simple-Products\stkmngmtenable.jpg)
-
-        -   **Stock Quantity** : Enter the number of pieces available, and it will auto update as Stock, Out of Stock or On Backorder.
-        -   **Allow Backorders** : Select the required option. 
-        -   **Low stock threshold** : Enter a number, which will notify you when the product’s stock goes below the threshold.
-        -   **Sold individually** : Tick this box to limit the product to one per order.
+-   **Manage stock?** - This should be always **Enabled**. Tick the box to enable it.
+-   **Stock Quantity** : Enter the number of pieces available, and it will auto update as Stock, Out of Stock or On Backorder.
+-   **Allow Backorders** : Always select **Do not Allow**
+-   **Low stock threshold** : Enter a number, which will notify you when the product’s stock goes below the threshold.
+-   **Sold individually** : This is always **disabled**. **Never tick** this box, as it will limit the product to one per order.
 
 
-####    **Shipping**
+#####    **Shipping**
 
 The Shipping tab, allows you to control important details about a physical product for shipping. The below fields are required to be filled:
 
@@ -107,9 +149,12 @@ The Shipping tab, allows you to control important details about a physical produ
 
 -   **Weight** - Enter the weight of the product.
 -   **Dimensions** - Enter the Length, Width and Height of the product.
--   **Shipping Class** - Shipping class is used by certain shipping methods to group similar products. Select the option from the list.
+-   **Shipping Class** - Shipping class is used by certain shipping methods to group similar products. Select the applicable class from the below options:
 
-####    **Linked Products**
+    -   **Normal** - This class is used for all the products on website.
+    -   **Delhivery** - This is used only for the **Home and Living** products.
+
+#####    **Linked Products**
 
 Linked products are recommendations to cross promote products and improve store revenue. There are two ways to accomplish this:
 
@@ -118,20 +163,11 @@ Linked products are recommendations to cross promote products and improve store 
 -   **Upsells** - Up-sells are displayed on the product details page. These are products that you may wish to encourage users to upgrade, based on the product they are currently viewing. Search and add the relevant product in this field.
 -   **Cross-sells** - Cross-sells are products that are displayed with the cart and related to the user’s cart contents.  Search and add the relevant product in this field.
 
-####    **Attributes**
+#####    **Attributes**
 
 Attributes are descriptors for a product. This tab will help you assign details like color options, sizes, fit and more to the product.
 
--   Choose the relevant option from the list which provides two options:
-
-    -   **Custom Product attribute** : These are added at the product level and won’t be available in layered navigation or other products.
-
-        :computer:  <a href="https://docs.woocommerce.com/document/managing-product-taxonomies/#add-custom-attributes" target="_blank">**How to add Custom Product Attributes**</a>
-
-    -   **Global attribute sets already created** : These attributes once created will be available  in layered navigation or other products.
-
-        :computer: <a href="https://docs.woocommerce.com/document/managing-product-taxonomies/#add-custom-attributes" target="_blank">**Learn to create Global Attributes**</a>
-
+-   Select the attribute from the list
 -   Click on **Add**
 
     ![attributes](Images\Simple-Products\attributes.jpg)
@@ -143,29 +179,183 @@ Attributes are descriptors for a product. This tab will help you assign details 
 
 This is how a selected attribute looks on the product page:
 
-![attribute2](Images\Simple-Products\attribute2.jpg)
+![attribute final](Images\simpleattributefinal.jpg)
+
+
+#####    **Fields not to be updated**
+
+The below 2 fields need no updation:
+
+-   Advanced
+-   LookBook
+
+![no edit](Images\simplenoedit.jpg)
+
+
+####    **Variable Product Data**
+
+Below, we will see steps to add a Variable Product.
+
+*   Go to -> **Product Data** ->  **Product Type** -> Select **Variable Product**  from the list.
+
+![prod data](Images\variableproddata.jpg)
+
+Once the type of product is selected, information in various tabs needs to be added. We will discuss the tabs one by one:
+
+#####   **General** 
+
+The General section for Variable product, allows to set the tax fields of the product.
+
+![variable general](Images\variablegeneral.jpg)
+
+
+*   **Tax**
+
+    -   **Tax status** - Always enter **Taxable**
+    -   **Tax class** - Choose the applicable tax class from list.
+
+#####    **Inventory**
+
+The inventory section allows you to manage stock for the product individually and define whether to allow back orders and more. It enables you to sell products and allow customers to add them to the cart to buy.
+
+![variable inventory](Images\variableinventory.jpg)
+
+-   **SKU** - SKU is a unique identification number available on every product or service which simplifies inventory management. It can be entered manually or generated automatically.
+-   **Manage stock?** - This should be always **Enabled**. Tick the box to enable it.
+-   **Stock Quantity** : Enter the number of pieces available, and it will auto update as Stock, Out of Stock or On Backorder.
+-   **Allow Backorders** : Always select **Do not Allow**
+-   **Low stock threshold** : Enter a number, which will notify you when the product’s stock goes below the threshold.
+-   **Sold individually** : This is always **disabled**. **Never tick** this box, as it will limit the product to one per order.
+
+
+#####    **Shipping**
+
+The Shipping tab, allows you to control important details about a physical product for shipping. The below fields are required to be filled:
+
+![shipping](Images\variableshipping.jpg)
+
+-   **Weight** - Enter the weight of the product.
+-   **Dimensions** - Enter the Length, Width and Height of the product.
+-   **Shipping Class** - Shipping class is used by certain shipping methods to group similar products. Select the applicable class from the below options:
+
+    -   **Normal** - This class is used for all the products on website.
+    -   **Delhivery** - This is used only for the **Home and Living** products.
+
+#####    **Linked Products**
+
+Linked products are recommendations to cross promote products and improve store revenue. There are two ways to accomplish this:
+
+![variable linked](Images\variablelinked.jpg)
+
+-   **Upsells** - Up-sells are displayed on the product details page. These are products that you may wish to encourage users to upgrade, based on the product they are currently viewing. Search and add the relevant product in this field.
+-   **Cross-sells** - Cross-sells are products that are displayed with the cart and related to the user’s cart contents.  Search and add the relevant product in this field.
+
+#####    **Attributes**
+
+Attributes are descriptors for a product. This tab will help you assign details like color options, sizes, fit and more to the product.
+
+
+1.  Select the required attribute from the dropdown and click **Add**
+
+    ![attribute](Images\variableattribute.jpg)
+
+2.  Set values separated by a vertical pipe "|" (e.g. - **Small | Medium | Large**)
+3.  Enable -> **Visible on the product page** checkbox - to show all attributes on the product page.
+4.  Enable -> **Used for variations** checkbox - to show it's for variations.
+5.  Click -> **Save Attributes**
+
+    ![attribute values](Images\variableattributevalue.jpg)
+
+This is how a selected attribute looks on the product page:
+
+![variable attribute final](Images\variableattributefinal.jpg)
+
+
+##### **Variations**
+
+To add variations:
+
+Once the attributes are selected, its time to add variations to them. Variations can be added in two ways, discussed below:
+
+######    **Manually Add Variation**
+
+1.  Select -> **Add Variation** from dropdown menu and click -> **Go**
+
+    ![variation add](Images\variationadd.jpg)
+
+2.  Select attributes for the variation. 
+
+    ![variation att select](Images\variationattselect.jpg)
+
+3. Click -> **Save Changes**
+
+######    **Creating all Possible Variations**
+
+To create every possible combination of variations, follow below steps:
+
+1.  Select -> **Create variations from all attributes** 
+2.  Click -> **Go**
+
+    ![variations multiple](Images\variationsmultiple.jpg)
+
+This will create a new variation for each and every possible combination of variation attributes (max 50 per run). If you have more possible combinations you can run it again.
+
+    Example:
+
+    If you have two attributes – color (with values blue and green) and size <br> (with values large and small) it creates the following variations:
+
+    Large Blue
+    Large Green
+    Small Blue
+    Small Green
+
+###### **Adding Variation Data**
+
+Once all variations are created, each variation can have the following properties:
+
+![variation data](Images\variationdata.jpg)
+
+![variation data 1](Images\variationdata1.jpg)
+
+1.  **Image** - An image can be added for each variation. To add:
+
+    -   Click -> the blue placeholder
+    -   Select -> the image you wish to use
+    -   Click -> **Save**
+
+2.  **SKU** - Each variation has a unique SKU which is different from the parent SKU. It is generated automatically or can be entered manually.
+3.  **Enabled** - Enable or disable the variation.
+4.  **Manage Stock?** - Enable to allow stock management at variation level.
+5.  **Regular Price** - This is a required field. Enter the price for this variation.
+6.  **Sale Price** - This is optional. Enter variation price when on sale.
+7.  **Measurements** - Different measurements can be entered. E.g. shoulder, waist, length etc. These measurements form the basis for the **size chart** on the product page (an example snapshot of the same is below). 
+
+    ![size chart](Images\sizechart.jpg)
 
 
 
-####    **Advanced**
 
-The Advanced tab can be used for adding a purchase note that appears after placing an order. The below fields need to be filled:
+#####    **Fields not to be updated**
 
-![advanced](Images\Simple-Products\advanced.jpg)
+The below 2 fields need no updation:
 
--   **Purchase note** - Enter an optional note to send the customer after they purchase the product.
--   **Menu order** - Custom ordering position for this item.
--   **Enable Reviews** - Enable/Disable customer reviews for this item.
+-   Advanced
+-   LookBook
 
-
+![no edit](Images\simplenoedit.jpg)
 
 ### **Product Short Description**
 
-In the short description box, write an engaging short description using the editor.
+This field doesn't need to be updated. Leave it blank.
 
-This is an excerpt which typically appears at a prominent spot next to product imagery on the listing page.
+![prodshortdesc](Images\prodshortdesc.jpg)
 
-![prodshortdesc](Images\Simple-Products\prodshortdesc.jpg)
+### **WooCommerce Views filter fields**
+
+This field doesn't need to be updated. Leave it blank.
+
+![woocommerce](Images\woocommercefilters.jpg)
+
 
 ### **Right Side Panel - Add some finishing touches**
 
@@ -173,24 +363,28 @@ By following the above steps correctly, the product page is almost ready. Some m
 
 ####    **Product Categories**
 
-Product categories help in organizing the products. Categories are the primary way to group products with similar features. You can also add sub-categories if desired.
+Product categories help in organizing the products. Categories are the primary way to group products with similar features. You can also add sub-categories if desired. We refer to them as levels.
 
-Categories can also be **reordered** by dragging and dropping – this order is used by default on the front end whenever the categories are listed. This includes both widgets and the category/subcategory views on product pages.
+-   L1 - Parent Category
+-   L2 - Sub-category
+-   L3 - Sub-sub-category
 
-:computer: <a href="https://docs.woocommerce.com/document/managing-product-taxonomies/#section-1" target="_blank">**How to add categories and sub-categories**</a>
+![category levels](Images\categorylevels.jpg)
+
+Categories levels can also be **reordered** by dragging and dropping – this order is used by default on the front end whenever the categories are listed. This includes both widgets and the category/subcategory views on product pages.
 
 The customers will be able to use the categories on the front-end of the website store in the form of filters to find/shortlist products.
 
-![prodcat2](Images\Simple-Products\prodcat2.jpg)
+![prodcat](Images\prodcat.jpg)
 
 
 1.  Go to -> **Product Categories**
-2.  Choose from existing categories and sub-categories.
-3.  Click -> **Add New Category** to add new names.
+2.  Choose from existing categories, sub-categories and sub-sub-categories.
+
 
 This is how the category filter looks on the website:
 
-![cat filter](Images\Simple-Products\catfilter.jpg)
+![cat filter](Images\catfilter.jpg)
 
 ####    **Product Tags**
 
@@ -208,13 +402,14 @@ The customers will be able to use the tags on the front-end of the website store
 
 ####    **Colors**
 
-Colors help in organizing the products on the basis of color category/family. The customers will be able to use this as a color filter on the front-end of the website store to find products.
+Colors help in organizing, searching the products on the basis of color category/family. 
 
-![colors](Images\Simple-Products\colors.jpg)
+The customers will be able to use this as a color filter on the front-end of the website store to find products.
+
+![colors](Images\colors.jpg)
 
 1.  Go to -> **Colors**
 2.  Select from the existing list
-3.  Click -> **Add New Color** to add more choices
 
 The color filter on the website:
 
@@ -224,11 +419,10 @@ The color filter on the website:
 
 Materials help in organizing the products on the basis of material used (fabric, accessories). The customers will be able to use this as a material filter on the front-end of the website store to find products.
 
-![materials](Images\Simple-Products\materials.jpg)
+![materials](Images\materials.jpg)
 
 1.  Go to -> **Materials**
 2.  Select from the existing list
-3.  Click -> **Add New Material** to add more choices
 
 The material filter looks as below:
 
@@ -253,7 +447,7 @@ Follow the steps to add image:
 
 A snapshot of the product image in the catalog on the website is below:
 
-![prod image1](Images\Simple-Products\prodimage1.jpg)
+![prod image1](Images\prodimagefinal.jpg)
 
 ####    **Product Gallery**
 
