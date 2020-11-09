@@ -13,7 +13,7 @@ The website footer is the section of content at the very bottom of the webpage. 
 
 Let's see the steps to create and maintain the footer for the website:
 
-1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+1.  Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Footer** -> This will take you to the customization page.

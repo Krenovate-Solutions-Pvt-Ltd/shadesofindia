@@ -10,7 +10,7 @@ In this section of the manual we will see how to add/edit/update the various sec
 
 Follow the below steps to create/update the home section:
 
-1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+1.  Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Home** -> This will take you to the customization page.
@@ -35,6 +35,9 @@ The following fields need to be filled to add/update this section:
 
 2.  **Background Image Mobile** : This is the background image for mobile website. Choose an image from the list.
 3.  **Background Color Mobile** : This is the backgound color assigned only for the mobile version. The color is designated by "#' and a number (eg. #ebf9ff). The color code to be entered will be provided to you.
+
+    ![background color mobile](images\Home\backgroundcolormobile.jpg)
+
 4.  **Pre-Header** : This is the topic of this section.
 5.  **Pre-Header text color** : This is the color assigned to the Pre-Header text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **Black**.
 6.  **Herosection Quote Text** : Here the Quote to be shown on the website should be written.
