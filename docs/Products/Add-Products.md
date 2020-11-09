@@ -8,7 +8,7 @@ The Add products section of the Manual will cover steps which are common for all
 
 Adding a product involves the below steps:
 
-1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+1.  Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 2.  Login with the credentials
 3.  Click on **Products** on the left side panel.
 4.  Click -> **All Products** - This will show the complete list of already existing products.
@@ -505,6 +505,5 @@ Once you double-check that all of the product details are correct, you can:
 Once all the above changes are published or updated, the final look of the product page on the website is below:
 
 ![simpleprodfinal](Images\Simple-Products\simpleprodfinal.jpg)
-
 
 

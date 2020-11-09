@@ -18,11 +18,11 @@ The Admin manual has been created for the Admin team of Shades of India. The pur
 
 ##  **Login - Admin Panel**
 
-*   Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+*   Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 *   Enter the User id and password
 *   Click on Log In
 
-![login](Image\login.jpg)
+    ![login](Image\login.jpg)
 
 ##  **Login Credentials**
 

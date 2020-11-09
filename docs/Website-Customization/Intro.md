@@ -17,7 +17,7 @@ This section shows the:
 
 Below, we will see steps to add/edit/update the Intro section of the website:
 
-1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+1.  Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 
@@ -25,7 +25,7 @@ Below, we will see steps to add/edit/update the Intro section of the website:
 
 4.  Select -> **Intro** -> This will take you to the customization page.
 
-    ![go to intro](images\Intro\gotointro.jpg)
+    ![gotointro](images\Intro\gotointro.jpg)
 
 5.  Select -> **Add New** -> if new entry is required.
 

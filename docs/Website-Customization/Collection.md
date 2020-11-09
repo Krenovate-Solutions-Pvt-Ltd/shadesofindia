@@ -12,7 +12,7 @@ In this part of the manual, we will see how we can create/maintain collection pa
 
 Follow the below steps to create/update a Collection:
 
-1.  Go to <a href="https://newwebsite.shadesofindia.com/wp-admin" target="_blank">ShadesofIndia</a>
+1.  Go to <a href="https://shadesofindia.com/wp-admin" target="_blank">**ShadesofIndia**</a>
 2.  Login with the credentials
 3.  Click on **Website Customization** on the left side panel.
 4.  Select -> **Collection** -> This will take you to the customization page.
@@ -59,6 +59,9 @@ Follow the below steps to create/update a Collection:
         -   **Button Text** : This is the text that shows on the button.
         -   **Position** : This defines the placement/sequence of the category listing. Always enter a number value.
 
+
+    Below is how the collection listing fields are placed on the website collections page:
+    
     ![listing final](images\Collection\listingfinal.jpg)
 
 ##  **Publish/Update**
