@@ -64,7 +64,7 @@ The Finer details appear on the product page on website as below:
 
 ![finer details1](Images\finerdetails1.jpg)
 
--   When description is added in the finer details field, two icons - **"Dry-clean only"**and **"Handcrafted"** appear automatically under the text on the product page.
+-   When description is added in the finer details field, two icons - **"Dry-clean only"** and **"Handcrafted"** appear automatically under the text on the product page.
 -   If no description is added, the finer details tab will not be visible on the product page.
 
 ####    **Size & Fit** 
@@ -300,14 +300,15 @@ To create every possible combination of variations, follow below steps:
 
 This will create a new variation for each and every possible combination of variation attributes (max 50 per run). If you have more possible combinations you can run it again.
 
-    Example:
-
-    If you have two attributes – color (with values blue and green) and size <br> (with values large and small) it creates the following variations:
-
-    Large Blue
-    Large Green
-    Small Blue
-    Small Green
+>   Example:
+>
+>   If you have two attributes – color (with values blue and green) and size (with values large and small) it creates the following variations:
+>
+>   -   Large Blue
+>   -   Large Green
+>   -   Small Blue
+>   -   Small Green
+>
 
 ###### **Adding Variation Data**
 
@@ -321,13 +322,19 @@ Once all variations are created, each variation can have the following propertie
 
     -   Click -> the blue placeholder
     -   Select -> the image you wish to use
-    -   Click -> **Save**
+    -   Click -> **Set Variation Image**
 
-2.  **SKU** - Each variation has a unique SKU which is different from the parent SKU. It is generated automatically or can be entered manually.
-3.  **Enabled** - Enable or disable the variation.
-4.  **Manage Stock?** - Enable to allow stock management at variation level.
-5.  **Regular Price** - This is a required field. Enter the price for this variation.
-6.  **Sale Price** - This is optional. Enter variation price when on sale.
+2.  **Additional Images** - For every variation more images related only to that variation can be added as additional images.
+
+    -   Click -> **Add Additional Images**
+    -   Select -> the images you want to use
+    -   Click -> **Add to Variation**
+
+3.  **SKU** - Each variation has a unique SKU which is different from the parent SKU. It is generated automatically or can be entered manually.
+4.  **Enabled** - Enable or disable the variation.
+5.  **Manage Stock?** - Enable to allow stock management at variation level.
+6.  **Regular Price** - This is a required field. Enter the price for this variation.
+7.  **Sale Price** - This is optional. Enter variation price when on sale.
 7.  **Measurements** - Different measurements can be entered. E.g. shoulder, waist, length etc. These measurements form the basis for the **size chart** on the product page (an example snapshot of the same is below). 
 
     ![size chart](Images\sizechart.jpg)
@@ -365,13 +372,13 @@ By following the above steps correctly, the product page is almost ready. Some m
 
 Product categories help in organizing the products. Categories are the primary way to group products with similar features. You can also add sub-categories if desired. We refer to them as levels.
 
--   L1 - Parent Category
--   L2 - Sub-category
--   L3 - Sub-sub-category
+-   **L1 - Parent Category**
+-   **L2 - Sub-category**
+-   **L3 - Sub-sub-category**
 
 ![category levels](Images\categorylevels.jpg)
 
-Categories levels can also be **reordered** by dragging and dropping – this order is used by default on the front end whenever the categories are listed. This includes both widgets and the category/subcategory views on product pages.
+Category levels can also be **reordered** by dragging and dropping – this order is used by default on the front-end whenever the categories are listed. This includes both widgets and the category/subcategory views on product pages.
 
 The customers will be able to use the categories on the front-end of the website store in the form of filters to find/shortlist products.
 
@@ -478,7 +485,7 @@ In the Publish panel, you can set Catalog Visibility for your product. The below
 
 ![catalogvisibility](Images\Simple-Products\catalogvisibility.jpg)
 
--   **Shop and search** – Visible everywhere, shop pages, category pages and search results.
+-   **Shop and search** – Visible everywhere, shop pages, category pages and search results. **Always select this option.**
 -   **Shop only** – Visible in shop pages and category pages, but not search results.
 -   **Search only** – Visible in search results, but not in the shop page or category pages.
 -   **Hidden** – Only visible on the single product page – not on any other pages.

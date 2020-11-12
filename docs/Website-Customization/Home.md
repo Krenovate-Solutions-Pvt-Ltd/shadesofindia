@@ -42,7 +42,7 @@ The following fields need to be filled to add/update this section:
 5.  **Pre-Header text color** : This is the color assigned to the Pre-Header text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **Black**.
 6.  **Herosection Quote Text** : Here the Quote to be shown on the website should be written.
 
-    ![quote](images\Home\hsquote.jpg)
+    ![hsquote](images\Home\hsquote.jpg)
 
 7.  **Herosection Quote text color** : This is the color assigned to the Quote text as it will show on the website. The color is designated by "#' and a number (eg. #6b4b1c). The color code to be entered will be provided to you. **By Default** the color is set to **Black**.
 8.  **Herosection CTA Title** : This field needs to be filled in case a button needs to be inserted in the Herosection.
@@ -77,7 +77,7 @@ The following fields need to be filled in this section:
 
 The Something for Everyone section on the website home page appears as below:
 
-![sfe final](images\Home\sfefinal.jpg)
+![sfefinal](images\Home\sfefinal.jpg)
 
 
 ### **Quote**
@@ -165,7 +165,7 @@ To complete this section, the following fields need to be filled:
 
 The Home & Living website look is below:
 
-![hl final](images\Home\hlfinal.jpg)
+![hlfinal](images\Home\hlfinal.jpg)
 
 
 ### **Travelogue**
@@ -203,7 +203,7 @@ To complete this section, fill up the following fields:
 
 The Travelogue slides on the website appear as below:
 
-![travel final](images\Home\travelfinal.jpg)
+![travelfinal](images\Home\travelfinal.jpg)
 
 
 ### **Handpicked**
@@ -235,7 +235,7 @@ For this section, the below fields need to be filled:
 
 The final look on the website is as below:
 
-![final](images\Home\handpickedfinal.jpg)
+![handpicked final](images\Home\handpickedfinal.jpg)
 
 ### **Services**
 
@@ -263,7 +263,7 @@ The following fields need to be updated for this section:
 
 All the above defined fields appear as below on the website:
 
-![service final](images\Home\servicesfinal.jpg)
+![services final](images\Home\servicesfinal.jpg)
 
 ##  **Publish/Update**
 
