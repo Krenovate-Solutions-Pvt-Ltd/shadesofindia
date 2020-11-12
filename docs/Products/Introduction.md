@@ -18,7 +18,7 @@ The WooCommerce platform offers many type of products that can be added to the w
 
 Variable products are a product type that lets you offer a set of variations on a product, with control over prices, stock, image and more for each variation. They can be used for a product like a shirt, where you can offer a large, medium and small and in different colors.
 
-**Product Management**
+##  **Product Management**
 
 As part of Product Management, products can be managed in the following ways:
 
