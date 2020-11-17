@@ -1,0 +1,910 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>Administrator - Shade of India Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../assets/stylesheets/main.b5d04df8.min.css">
+      
+        <link rel="stylesheet" href="../assets/stylesheets/palette.9ab2c1f8.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#administrator" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href=".." title="Shade of India Documentation" class="md-header-nav__button md-logo" aria-label="Shade of India Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Shade of India Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Administrator
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href=".." title="Shade of India Documentation" class="md-nav__button md-logo" aria-label="Shade of India Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Shade of India Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Website Customization
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Website Customization" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Website Customization
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Website-Customization/Intro/" title="Intro" class="md-nav__link">
+      Intro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Website-Customization/Home/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Website-Customization/Footer/" title="Footer" class="md-nav__link">
+      Footer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Website-Customization/Collection/" title="Collection" class="md-nav__link">
+      Collection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Website-Customization/WC-lookbooks/" title="WC Lookbooks" class="md-nav__link">
+      WC Lookbooks
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2">
+    
+    <label class="md-nav__link" for="nav-2">
+      Products
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Products" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Products
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Products/Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Products/Add-Products/" title="Add Products" class="md-nav__link">
+      Add Products
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Products/Import-Export-CSV-Format/" title="Import-Export CSV Format" class="md-nav__link">
+      Import-Export CSV Format
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Products/Bulk-Import/" title="Bulk Import" class="md-nav__link">
+      Bulk Import
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Products/Bulk-Export/" title="Bulk Export" class="md-nav__link">
+      Bulk Export
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Administrator
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Administrator" class="md-nav__link md-nav__link--active">
+      Administrator
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-a-new-admin-user" class="md-nav__link">
+    Add a New Admin User
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-verification" class="md-nav__link">
+    User Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-factor-authentication-2fa" class="md-nav__link">
+    Two Factor Authentication (2FA)
+  </a>
+  
+    <nav class="md-nav" aria-label="Two Factor Authentication (2FA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-authy" class="md-nav__link">
+    Download AUTHY
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authy-account-setup" class="md-nav__link">
+    Authy Account Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-authy-to-admin-account" class="md-nav__link">
+    Connect Authy to Admin Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery-codes" class="md-nav__link">
+    Recovery Codes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login-with-2-factor-authentication" class="md-nav__link">
+    Login with 2 Factor Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-enable-2fa-based-on-roles" class="md-nav__link">
+    Important - Enable 2FA based on Roles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-a-user" class="md-nav__link">
+    Delete a User
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#add-a-new-admin-user" class="md-nav__link">
+    Add a New Admin User
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#user-verification" class="md-nav__link">
+    User Verification
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#two-factor-authentication-2fa" class="md-nav__link">
+    Two Factor Authentication (2FA)
+  </a>
+  
+    <nav class="md-nav" aria-label="Two Factor Authentication (2FA)">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#download-authy" class="md-nav__link">
+    Download AUTHY
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#authy-account-setup" class="md-nav__link">
+    Authy Account Setup
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#connect-authy-to-admin-account" class="md-nav__link">
+    Connect Authy to Admin Account
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#recovery-codes" class="md-nav__link">
+    Recovery Codes
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#login-with-2-factor-authentication" class="md-nav__link">
+    Login with 2 Factor Authentication
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#important-enable-2fa-based-on-roles" class="md-nav__link">
+    Important - Enable 2FA based on Roles
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#delete-a-user" class="md-nav__link">
+    Delete a User
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="administrator"><strong>Administrator</strong><a class="headerlink" href="#administrator" title="Permanent link">&para;</a></h1>
+<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The administrator role is the most powerful role. Users with the administrator role/rights can:</p>
+<ul>
+<li>add new posts</li>
+<li>edit any posts</li>
+<li>delete any posts</li>
+<li>install, edit, delete plugins and themes</li>
+<li>add new users</li>
+<li>edit user information</li>
+<li>delete any user</li>
+</ul>
+<p>This role is basically reserved for site owners and gives them full control of the whole website.</p>
+<h2 id="add-a-new-admin-user"><strong>Add a New Admin User</strong><a class="headerlink" href="#add-a-new-admin-user" title="Permanent link">&para;</a></h2>
+<p>In this section, we will look at the steps to be followed to add a New user with Admin rights.</p>
+<ol>
+<li>Go to <a href="https://shadesofindia.com/wp-admin" target="_blank"><strong>ShadesofIndia</strong></a></li>
+<li>Login with the credentials, you will reach the admin dashboard</li>
+<li>Click -&gt; <strong>Users</strong></li>
+<li>
+<p>Click -&gt; <strong>Add New</strong></p>
+<p><img alt="add new" src="addnew.jpg" /></p>
+</li>
+<li>
+<p>Fill the below form:</p>
+<p><img alt="form" src="form.jpg" /></p>
+<ul>
+<li><strong>User Name</strong> - It is a required field. Add any name you wish. The filed is case sensitive so it is advised not to use capital letters.</li>
+<li><strong>Email</strong> - This is a required field. Enter the email id. The entered email id cannot be used for any other role.</li>
+<li><strong>First Name</strong> - Enter the user's first name</li>
+<li><strong>Last Name</strong> - Enter the user's last name</li>
+<li><strong>Website</strong> - This field is NA. Leave it blank</li>
+<li><strong>Password</strong> - Click -&gt; Show password - it will show a system generated password. It is recommended to use this password only.</li>
+<li><strong>Send User Notification</strong> - Always enable this option -&gt; this will send an email notification to the user</li>
+<li><strong>Role</strong> - From the drop down select the role as <strong>Administrator</strong></li>
+</ul>
+</li>
+<li>
+<p>Click -&gt; <strong>Add New User</strong> at the bottom of the form. </p>
+</li>
+</ol>
+<h2 id="user-verification"><strong>User Verification</strong><a class="headerlink" href="#user-verification" title="Permanent link">&para;</a></h2>
+<p>Once the user is created, an email notification is received on the registered email id. This email helps in making the created account active.</p>
+<p><img alt="mail recvd" src="mailrecvd.jpg" /></p>
+<p>Follow the below steps:</p>
+<ol>
+<li>
+<p>Click -&gt; Link in the email</p>
+<p><img alt="mail link" src="maillink.jpg" /></p>
+</li>
+<li>
+<p>Copy the password shown and save</p>
+</li>
+<li>
+<p>Click -&gt; Reset the password</p>
+<p><img alt="password" src="password.jpg" /></p>
+</li>
+<li>
+<p>Once password is rest, login with the Username and password.</p>
+<p><img alt="password reset" src="passwordreset.jpg" /></p>
+</li>
+</ol>
+<blockquote>
+<p><strong>Note - Never save passwords on the working machine.</strong></p>
+</blockquote>
+<h2 id="two-factor-authentication-2fa"><strong>Two Factor Authentication (2FA)</strong><a class="headerlink" href="#two-factor-authentication-2fa" title="Permanent link">&para;</a></h2>
+<p>Two-factor authentication (2FA), sometimes referred to as <em>two-step verification</em> or <em>dual-factor authentication</em>, is a security process in which users provide two different authentication factors to verify themselves.</p>
+<p>Two-factor authentication methods rely on a user providing a password, as well as a second factor, usually either a security token or a biometric factor, such as a fingerprint or facial scan.</p>
+<p>Two-factor authentication adds an <strong>additional layer of security</strong> to the authentication process by making it harder for attackers to gain access to a person's devices or online accounts.</p>
+<h3 id="download-authy"><strong>Download AUTHY</strong><a class="headerlink" href="#download-authy" title="Permanent link">&para;</a></h3>
+<p>Authy is the authenticator app that we use to enable the 2FA. Below are the steps to download the app:</p>
+<ol>
+<li>Go to -&gt; <a href="https://authy.com/" target="_blank"><strong>Authy Website</strong></a></li>
+<li>
+<p>On top right side corner, Click -&gt; <strong>Download</strong></p>
+<p><img alt="authy download" src="authydownload.jpg" /></p>
+</li>
+<li>
+<p>Go to -&gt; <strong>Desktop</strong></p>
+</li>
+<li>
+<p>Select your operating system - mac/windows</p>
+<p><img alt="authy desktop" src="authydesktop.jpg" /></p>
+</li>
+<li>
+<p>Run <strong>Setup</strong> to install Authy on your machine.</p>
+</li>
+</ol>
+<h3 id="authy-account-setup"><strong>Authy Account Setup</strong><a class="headerlink" href="#authy-account-setup" title="Permanent link">&para;</a></h3>
+<ol>
+<li>Run <strong>Setup</strong> to install Authy on your machine.</li>
+<li>
+<p>Select Country -&gt; India (+91)</p>
+<p><img alt="country" src="country.jpg" /></p>
+</li>
+<li>
+<p>Enter -&gt; Mobile number, Click <strong>Next</strong></p>
+<p><img alt="click next" src="clicknext.jpg" /></p>
+</li>
+<li>
+<p>Enter -&gt; email id for notifications</p>
+<p><img alt="email" src="email.jpg" /></p>
+</li>
+<li>
+<p>Select -&gt; SMS - to receive verification code</p>
+<p><img alt="sms verify" src="smsverify.jpg" /></p>
+</li>
+<li>
+<p>Enter -&gt; Code received on mobile number</p>
+<p><img alt="enter code" src="entercode.jpg" /></p>
+</li>
+</ol>
+<p>Now your Authy setup is complete.</p>
+<h3 id="connect-authy-to-admin-account"><strong>Connect Authy to Admin Account</strong><a class="headerlink" href="#connect-authy-to-admin-account" title="Permanent link">&para;</a></h3>
+<ol>
+<li>
+<p>Click -&gt; "+" sign</p>
+<p><img alt="click +" src="click%2B.jpg" /></p>
+</li>
+<li>
+<p>Generate code in the website admin panel. Steps to get code are below:</p>
+<ul>
+<li>Go to -&gt; Admin Panel</li>
+<li>
+<p>Go to -&gt; <strong>Wordfence</strong> -&gt; <strong>Login Security</strong></p>
+<p><img alt="wordfence" src="wordfence.jpg" /></p>
+</li>
+<li>
+<p>Copy code visible under the Bar code</p>
+<p><img alt="copy code" src="copycode.jpg" /></p>
+</li>
+</ul>
+</li>
+<li>
+<p>Paste the code in Authy</p>
+</li>
+<li>
+<p>Click -&gt; <strong>Add account</strong></p>
+<p><img alt="past in authy" src="pasteinauthy.jpg" /></p>
+</li>
+<li>
+<p>Add -&gt; <strong>Account Name</strong></p>
+<p><img alt="account name" src="accountname.jpg" /></p>
+</li>
+<li>
+<p>Scroll to the bottom of given list. Select -&gt; <strong>Wordpress</strong></p>
+<p><img alt="select wordpress" src="selectwordpress.jpg" /></p>
+</li>
+<li>
+<p>Choose -&gt; <strong>Token Length</strong> - Recommended length is 6 digit</p>
+<p><img alt="token length" src="tokenlength.jpg" /></p>
+</li>
+<li>
+<p>Click -&gt; <strong>Save</strong> </p>
+</li>
+<li>
+<p>Copy the visible code. This code changes every 30 seconds.</p>
+<p><img alt="copy6digit code" src="copy6digitcode.jpg" /></p>
+</li>
+<li>
+<p>Go back to -&gt; Admin Panel</p>
+</li>
+<li>
+<p>Paste code under section 2</p>
+<p><img alt="pastecode" src="pastecode.jpg" /></p>
+</li>
+<li>
+<p>Click -&gt; <strong>Activate</strong></p>
+<p><img alt="clickactivate" src="clickactivate.jpg" /></p>
+</li>
+</ol>
+<h3 id="recovery-codes"><strong>Recovery Codes</strong><a class="headerlink" href="#recovery-codes" title="Permanent link">&para;</a></h3>
+<p>Once the connection between Authy and Admin account is set up, a pop-up comes up - <strong>Download Recovery Codes</strong></p>
+<ol>
+<li>
+<p>Click -&gt; <strong>Download</strong> : The text file has 5 extra codes in case the previous code is lost.</p>
+<p><img alt="download recovery codes" src="downloadrecoverycodes.jpg" /></p>
+</li>
+<li>
+<p>Save for future use.</p>
+</li>
+<li>
+<p>The recovery codes, can be used if you ever lose your authenticator device or if you remove the app or its saved codes by mistake. Make sure you store these codes in a safe place.</p>
+</li>
+<li>Because they don’t expire, recovery codes are longer than normal codes — 16 letters and numbers instead of only 6 numbers — but each code can only be used once. </li>
+<li>You can generate new recovery codes on the Login Security page of your site.</li>
+<li>Generating new codes will invalidate the previous codes.</li>
+</ol>
+<h2 id="login-with-2-factor-authentication"><strong>Login with 2 Factor Authentication</strong><a class="headerlink" href="#login-with-2-factor-authentication" title="Permanent link">&para;</a></h2>
+<ol>
+<li>Go to <a href="https://shadesofindia.com/wp-admin" target="_blank"><strong>ShadesofIndia</strong></a></li>
+<li>Enter Username and Password</li>
+<li>
+<p>Click -&gt; <strong>Log In</strong></p>
+<p><img alt="login" src="login.jpg" /></p>
+</li>
+<li>
+<p>When the <strong>2FA Code</strong> prompt appears -&gt; enter the code from the authy app; this code gets updated every 30 seconds</p>
+</li>
+<li>
+<p>Again Click -&gt; <strong>Log In</strong></p>
+<p><img alt="2falogin" src="2falogin.jpg" /></p>
+</li>
+</ol>
+<h2 id="important-enable-2fa-based-on-roles"><strong>Important - Enable 2FA based on Roles</strong><a class="headerlink" href="#important-enable-2fa-based-on-roles" title="Permanent link">&para;</a></h2>
+<p>Once, all the above steps have been followed and the 2FA has been setup, the most <strong>important/mandatory</strong> step to be followed is to <strong>Enable 2FA for the respective roles</strong>. Below are the steps for the same:</p>
+<ol>
+<li>Go to -&gt; <strong>Admin Panel</strong></li>
+<li>
+<p>Go to -&gt; <strong>Wordfence</strong> -&gt; <strong>Login Security</strong></p>
+<p><img alt="wordfence" src="wordfence.jpg" /></p>
+</li>
+<li>
+<p>Click -&gt; <strong>Settings</strong></p>
+</li>
+<li>
+<p>Tick mark the checkbox -&gt; <strong>Enable 2FA for these roles</strong> - Select the required role</p>
+<p><img alt="enable2fa" src="enable2fa.jpg" /></p>
+</li>
+<li>
+<p>Click -&gt; <strong>Save settings</strong></p>
+</li>
+</ol>
+<p>After this, whenever a user of selected role logs in to the WordPress site, user will be asked for two-factor. </p>
+<h2 id="delete-a-user"><strong>Delete a User</strong><a class="headerlink" href="#delete-a-user" title="Permanent link">&para;</a></h2>
+<p>To delete a user, follow the below steps:</p>
+<ol>
+<li>
+<p>Go to -&gt; <strong>Users</strong> -&gt; <strong>All Users</strong></p>
+<p><img alt="allusers" src="allusers.jpg" /></p>
+</li>
+<li>
+<p>Hover over the user you want to delete.</p>
+</li>
+<li>
+<p>Click -&gt; <strong>Delete</strong></p>
+<p><img alt="deleteuser" src="deleteuser.jpg" /></p>
+</li>
+</ol>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 17, 2020</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Products/Bulk-Export/" title="Bulk Export" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Bulk Export
+              </div>
+            </div>
+          </a>
+        
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>

@@ -1,0 +1,2919 @@
+
+
+
+<!doctype html>
+<html lang="en" class="no-js">
+  <head>
+    
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width,initial-scale=1">
+      
+      
+      
+      <link rel="shortcut icon" href="../../assets/images/favicon.png">
+      <meta name="generator" content="mkdocs-1.1.2, mkdocs-material-5.5.0">
+    
+    
+      
+        <title>Import-Export CSV Format - Shade of India Documentation</title>
+      
+    
+    
+      <link rel="stylesheet" href="../../assets/stylesheets/main.b5d04df8.min.css">
+      
+        <link rel="stylesheet" href="../../assets/stylesheets/palette.9ab2c1f8.min.css">
+      
+      
+        
+        
+        <meta name="theme-color" content="#3f51b5">
+      
+    
+    
+    
+      
+        <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Inter:300,400,400i,700%7CSource+Code+Pro&display=fallback">
+        <style>body,input{font-family:"Inter",-apple-system,BlinkMacSystemFont,Helvetica,Arial,sans-serif}code,kbd,pre{font-family:"Source Code Pro",SFMono-Regular,Consolas,Menlo,monospace}</style>
+      
+    
+    
+    
+    
+      
+    
+    
+  </head>
+  
+  
+    
+    
+    
+    <body dir="ltr" data-md-color-scheme="" data-md-color-primary="indigo" data-md-color-accent="blue">
+  
+    
+    <input class="md-toggle" data-md-toggle="drawer" type="checkbox" id="__drawer" autocomplete="off">
+    <input class="md-toggle" data-md-toggle="search" type="checkbox" id="__search" autocomplete="off">
+    <label class="md-overlay" for="__drawer"></label>
+    <div data-md-component="skip">
+      
+        
+        <a href="#importexport-csv-format" class="md-skip">
+          Skip to content
+        </a>
+      
+    </div>
+    <div data-md-component="announce">
+      
+    </div>
+    
+      <header class="md-header" data-md-component="header">
+  <nav class="md-header-nav md-grid" aria-label="Header">
+    <a href="../.." title="Shade of India Documentation" class="md-header-nav__button md-logo" aria-label="Shade of India Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    <label class="md-header-nav__button md-icon" for="__drawer">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 6h18v2H3V6m0 5h18v2H3v-2m0 5h18v2H3v-2z"/></svg>
+    </label>
+    <div class="md-header-nav__title" data-md-component="header-title">
+      
+        <div class="md-header-nav__ellipsis">
+          <span class="md-header-nav__topic md-ellipsis">
+            Shade of India Documentation
+          </span>
+          <span class="md-header-nav__topic md-ellipsis">
+            
+              Import-Export CSV Format
+            
+          </span>
+        </div>
+      
+    </div>
+    
+      <label class="md-header-nav__button md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+      </label>
+      
+<div class="md-search" data-md-component="search" role="dialog">
+  <label class="md-search__overlay" for="__search"></label>
+  <div class="md-search__inner" role="search">
+    <form class="md-search__form" name="search">
+      <input type="text" class="md-search__input" name="query" aria-label="Search" placeholder="Search" autocapitalize="off" autocorrect="off" autocomplete="off" spellcheck="false" data-md-component="search-query" data-md-state="active">
+      <label class="md-search__icon md-icon" for="__search">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M9.5 3A6.5 6.5 0 0116 9.5c0 1.61-.59 3.09-1.56 4.23l.27.27h.79l5 5-1.5 1.5-5-5v-.79l-.27-.27A6.516 6.516 0 019.5 16 6.5 6.5 0 013 9.5 6.5 6.5 0 019.5 3m0 2C7 5 5 7 5 9.5S7 14 9.5 14 14 12 14 9.5 12 5 9.5 5z"/></svg>
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </label>
+      <button type="reset" class="md-search__icon md-icon" aria-label="Clear" data-md-component="search-reset" tabindex="-1">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12 19 6.41z"/></svg>
+      </button>
+    </form>
+    <div class="md-search__output">
+      <div class="md-search__scrollwrap" data-md-scrollfix>
+        <div class="md-search-result" data-md-component="search-result">
+          <div class="md-search-result__meta">
+            Initializing search
+          </div>
+          <ol class="md-search-result__list"></ol>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+    
+    
+  </nav>
+</header>
+    
+    <div class="md-container" data-md-component="container">
+      
+        
+      
+      
+        
+      
+      <main class="md-main" data-md-component="main">
+        <div class="md-main__inner md-grid">
+          
+            
+              <div class="md-sidebar md-sidebar--primary" data-md-component="navigation">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    <nav class="md-nav md-nav--primary" aria-label="Navigation" data-md-level="0">
+  <label class="md-nav__title" for="__drawer">
+    <a href="../.." title="Shade of India Documentation" class="md-nav__button md-logo" aria-label="Shade of India Documentation">
+      
+  
+  <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M12 8a3 3 0 003-3 3 3 0 00-3-3 3 3 0 00-3 3 3 3 0 003 3m0 3.54C9.64 9.35 6.5 8 3 8v11c3.5 0 6.64 1.35 9 3.54 2.36-2.19 5.5-3.54 9-3.54V8c-3.5 0-6.64 1.35-9 3.54z"/></svg>
+
+    </a>
+    Shade of India Documentation
+  </label>
+  
+  <ul class="md-nav__list" data-md-scrollfix>
+    
+      
+      
+      
+
+
+  <li class="md-nav__item md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-1" type="checkbox" id="nav-1">
+    
+    <label class="md-nav__link" for="nav-1">
+      Website Customization
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Website Customization" data-md-level="1">
+      <label class="md-nav__title" for="nav-1">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Website Customization
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Website-Customization/Intro/" title="Intro" class="md-nav__link">
+      Intro
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Website-Customization/Home/" title="Home" class="md-nav__link">
+      Home
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Website-Customization/Footer/" title="Footer" class="md-nav__link">
+      Footer
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Website-Customization/Collection/" title="Collection" class="md-nav__link">
+      Collection
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../../Website-Customization/WC-lookbooks/" title="WC Lookbooks" class="md-nav__link">
+      WC Lookbooks
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active md-nav__item--nested">
+    
+      <input class="md-nav__toggle md-toggle" data-md-toggle="nav-2" type="checkbox" id="nav-2" checked>
+    
+    <label class="md-nav__link" for="nav-2">
+      Products
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M8.59 16.58L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.42z"/></svg>
+      </span>
+    </label>
+    <nav class="md-nav" aria-label="Products" data-md-level="1">
+      <label class="md-nav__title" for="nav-2">
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+        </span>
+        Products
+      </label>
+      <ul class="md-nav__list" data-md-scrollfix>
+        
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Introduction/" title="Introduction" class="md-nav__link">
+      Introduction
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Add-Products/" title="Add Products" class="md-nav__link">
+      Add Products
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+  
+
+
+  <li class="md-nav__item md-nav__item--active">
+    
+    <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+    
+      
+    
+    
+      <label class="md-nav__link md-nav__link--active" for="__toc">
+        Import-Export CSV Format
+        <span class="md-nav__icon md-icon">
+          <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M3 9h14V7H3v2m0 4h14v-2H3v2m0 4h14v-2H3v2m16 0h2v-2h-2v2m0-10v2h2V7h-2m0 6h2v-2h-2v2z"/></svg>
+        </span>
+      </label>
+    
+    <a href="./" title="Import-Export CSV Format" class="md-nav__link md-nav__link--active">
+      Import-Export CSV Format
+    </a>
+    
+      
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#csv-columns-and-formatting" class="md-nav__link">
+    CSV columns and formatting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#column-fields" class="md-nav__link">
+    Column Fields
+  </a>
+  
+    <nav class="md-nav" aria-label="Column Fields">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sku" class="md-nav__link">
+    SKU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    Name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#published" class="md-nav__link">
+    Published
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#featured" class="md-nav__link">
+    Featured
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibility-in-catalog" class="md-nav__link">
+    Visibility in Catalog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#short-description" class="md-nav__link">
+    Short Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-sale-price-startsends" class="md-nav__link">
+    Date Sale price starts/ends
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-class" class="md-nav__link">
+    Tax Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-stock" class="md-nav__link">
+    In stock?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock" class="md-nav__link">
+    Stock
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-stock-amount" class="md-nav__link">
+    Low Stock Amount
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backorders-allowed" class="md-nav__link">
+    Backorders Allowed?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sold-individually" class="md-nav__link">
+    Sold Individually
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weight" class="md-nav__link">
+    Weight
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#length" class="md-nav__link">
+    Length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#width" class="md-nav__link">
+    Width
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#height" class="md-nav__link">
+    Height
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-customer-reviews" class="md-nav__link">
+    Allow Customer Reviews?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purchase-note" class="md-nav__link">
+    Purchase Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sale-price" class="md-nav__link">
+    Sale Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regular-price" class="md-nav__link">
+    Regular Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    Categories
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    Tags
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shipping-class" class="md-nav__link">
+    Shipping Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-limit" class="md-nav__link">
+    Download Limit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-expiry-days" class="md-nav__link">
+    Download Expiry Days
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parent" class="md-nav__link">
+    Parent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grouped-products" class="md-nav__link">
+    Grouped Products
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upsells" class="md-nav__link">
+    Upsells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-sells" class="md-nav__link">
+    Cross-Sells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-url" class="md-nav__link">
+    External URL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#button-text-na" class="md-nav__link">
+    Button Text - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#position" class="md-nav__link">
+    Position
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-taxonomy" class="md-nav__link">
+    Color Taxonomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-taxonomy" class="md-nav__link">
+    Material Taxonomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-color" class="md-nav__link">
+    Attribute Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-name" class="md-nav__link">
+    Attribute 1 name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-values" class="md-nav__link">
+    Attribute 1 Value(s)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-visible" class="md-nav__link">
+    Attribute 1 visible
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-global" class="md-nav__link">
+    Attribute 1 global
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wpv_contains_gutenberg_views-na" class="md-nav__link">
+    Meta: _wpv_contains_gutenberg_views - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-shoulder" class="md-nav__link">
+    Meta: Shoulder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-bust" class="md-nav__link">
+    Meta: Bust
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-waist" class="md-nav__link">
+    Meta: Waist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-hip" class="md-nav__link">
+    Meta: Hip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-length" class="md-nav__link">
+    Meta: Length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wc_additional_variation_images" class="md-nav__link">
+    Meta: _wc_additional_variation_images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wp_old_date-na" class="md-nav__link">
+    Meta: _wp_old_date - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_layouts_template-na" class="md-nav__link">
+    Meta: _layouts_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wp_page_template-na" class="md-nav__link">
+    Meta: _wp_page_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-views_woo_price-na" class="md-nav__link">
+    Meta: views_woo_price - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-views_woo_in_stock-na" class="md-nav__link">
+    Meta: views_woo_in_stock - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-finer-details" class="md-nav__link">
+    Meta: wpcf-finer-details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-delivery-exchange" class="md-nav__link">
+    Meta: wpcf-delivery-exchange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-size-fit" class="md-nav__link">
+    Meta: wpcf-size-fit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_views_template-na" class="md-nav__link">
+    Meta: _views_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-name" class="md-nav__link">
+    Attribute 2 name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-value" class="md-nav__link">
+    Attribute 2 Value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-visible" class="md-nav__link">
+    Attribute 2 visible
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-global" class="md-nav__link">
+    Attribute 2 global
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+    
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Bulk-Import/" title="Bulk Import" class="md-nav__link">
+      Bulk Import
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
+    <a href="../Bulk-Export/" title="Bulk Export" class="md-nav__link">
+      Bulk Export
+    </a>
+  </li>
+
+        
+      </ul>
+    </nav>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../Administrator/" title="Administrator" class="md-nav__link">
+      Administrator
+    </a>
+  </li>
+
+    
+  </ul>
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+            
+              <div class="md-sidebar md-sidebar--secondary" data-md-component="toc">
+                <div class="md-sidebar__scrollwrap">
+                  <div class="md-sidebar__inner">
+                    
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon">
+        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+      </span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#introduction" class="md-nav__link">
+    Introduction
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#csv-columns-and-formatting" class="md-nav__link">
+    CSV columns and formatting
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#column-fields" class="md-nav__link">
+    Column Fields
+  </a>
+  
+    <nav class="md-nav" aria-label="Column Fields">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#id" class="md-nav__link">
+    ID
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#type" class="md-nav__link">
+    Type
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sku" class="md-nav__link">
+    SKU
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#name" class="md-nav__link">
+    Name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#published" class="md-nav__link">
+    Published
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#featured" class="md-nav__link">
+    Featured
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#visibility-in-catalog" class="md-nav__link">
+    Visibility in Catalog
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#short-description" class="md-nav__link">
+    Short Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#description" class="md-nav__link">
+    Description
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#date-sale-price-startsends" class="md-nav__link">
+    Date Sale price starts/ends
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-status" class="md-nav__link">
+    Tax Status
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-class" class="md-nav__link">
+    Tax Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#in-stock" class="md-nav__link">
+    In stock?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#stock" class="md-nav__link">
+    Stock
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#low-stock-amount" class="md-nav__link">
+    Low Stock Amount
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#backorders-allowed" class="md-nav__link">
+    Backorders Allowed?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sold-individually" class="md-nav__link">
+    Sold Individually
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#weight" class="md-nav__link">
+    Weight
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#length" class="md-nav__link">
+    Length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#width" class="md-nav__link">
+    Width
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#height" class="md-nav__link">
+    Height
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#allow-customer-reviews" class="md-nav__link">
+    Allow Customer Reviews?
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#purchase-note" class="md-nav__link">
+    Purchase Note
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#sale-price" class="md-nav__link">
+    Sale Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#regular-price" class="md-nav__link">
+    Regular Price
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#categories" class="md-nav__link">
+    Categories
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tags" class="md-nav__link">
+    Tags
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shipping-class" class="md-nav__link">
+    Shipping Class
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#images" class="md-nav__link">
+    Images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-limit" class="md-nav__link">
+    Download Limit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#download-expiry-days" class="md-nav__link">
+    Download Expiry Days
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#parent" class="md-nav__link">
+    Parent
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#grouped-products" class="md-nav__link">
+    Grouped Products
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#upsells" class="md-nav__link">
+    Upsells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#cross-sells" class="md-nav__link">
+    Cross-Sells
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#external-url" class="md-nav__link">
+    External URL
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#button-text-na" class="md-nav__link">
+    Button Text - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#position" class="md-nav__link">
+    Position
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#color-taxonomy" class="md-nav__link">
+    Color Taxonomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#material-taxonomy" class="md-nav__link">
+    Material Taxonomy
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-color" class="md-nav__link">
+    Attribute Color
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-name" class="md-nav__link">
+    Attribute 1 name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-values" class="md-nav__link">
+    Attribute 1 Value(s)
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-visible" class="md-nav__link">
+    Attribute 1 visible
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-1-global" class="md-nav__link">
+    Attribute 1 global
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wpv_contains_gutenberg_views-na" class="md-nav__link">
+    Meta: _wpv_contains_gutenberg_views - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-shoulder" class="md-nav__link">
+    Meta: Shoulder
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-bust" class="md-nav__link">
+    Meta: Bust
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-waist" class="md-nav__link">
+    Meta: Waist
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-hip" class="md-nav__link">
+    Meta: Hip
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-length" class="md-nav__link">
+    Meta: Length
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wc_additional_variation_images" class="md-nav__link">
+    Meta: _wc_additional_variation_images
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wp_old_date-na" class="md-nav__link">
+    Meta: _wp_old_date - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_layouts_template-na" class="md-nav__link">
+    Meta: _layouts_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_wp_page_template-na" class="md-nav__link">
+    Meta: _wp_page_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-views_woo_price-na" class="md-nav__link">
+    Meta: views_woo_price - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-views_woo_in_stock-na" class="md-nav__link">
+    Meta: views_woo_in_stock - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-finer-details" class="md-nav__link">
+    Meta: wpcf-finer-details
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-delivery-exchange" class="md-nav__link">
+    Meta: wpcf-delivery-exchange
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-wpcf-size-fit" class="md-nav__link">
+    Meta: wpcf-size-fit
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#meta-_views_template-na" class="md-nav__link">
+    Meta: _views_template - NA
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-name" class="md-nav__link">
+    Attribute 2 name
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-value" class="md-nav__link">
+    Attribute 2 Value
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-visible" class="md-nav__link">
+    Attribute 2 visible
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#attribute-2-global" class="md-nav__link">
+    Attribute 2 global
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+                  </div>
+                </div>
+              </div>
+            
+          
+          <div class="md-content">
+            <article class="md-content__inner md-typeset">
+              
+                
+                
+                  
+                
+                
+                <h1 id="importexport-csv-format"><strong>Import/Export CSV Format</strong><a class="headerlink" href="#importexport-csv-format" title="Permanent link">&para;</a></h1>
+<h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
+<p>The Import/Export feature in the Admin panel, allows the administrator to create/upload/edit bulk products in one go.</p>
+<p>To do a bulk import/export, an excel file ".csv" is created. All the required data is populated in this CSV file in a pre-defined format.  The file has columns dedicated to each field corresponding to the fields in the backend.</p>
+<p>Maintaining the format of all columns is of utmost importance in order import all data correctly.</p>
+<p>A sample CSV file is below:</p>
+<p><img alt="sample" src="../Images/Bulk-Import/sample.jpg" /></p>
+<h2 id="csv-columns-and-formatting"><strong>CSV columns and formatting</strong><a class="headerlink" href="#csv-columns-and-formatting" title="Permanent link">&para;</a></h2>
+<p>The below table gives a brief description of all the column fields of a CSV file:</p>
+<table>
+<thead>
+<tr>
+<th>CSV Column Name</th>
+<th>Maps to Product Property</th>
+<th>Example</th>
+<th>Notes</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><a href="#ID">ID</a></td>
+<td>Product Id</td>
+<td>100</td>
+<td>Defining this will overwrite data for that ID on Import</td>
+</tr>
+<tr>
+<td><a href="#Type">Type</a></td>
+<td>type</td>
+<td>simple,variable,variation</td>
+<td>Product Type. Valid values: simple, variable, variation</td>
+</tr>
+<tr>
+<td><a href="#SKU">SKU</a></td>
+<td>sku</td>
+<td>my-sku</td>
+<td>Required. Auto-generated if missing.</td>
+</tr>
+<tr>
+<td><a href="#Name">Name</a></td>
+<td>name</td>
+<td>My Product Name</td>
+<td>Required</td>
+</tr>
+<tr>
+<td><a href="#Published">Published</a></td>
+<td>status</td>
+<td>1</td>
+<td>1 = published, 0 = private,</td>
+</tr>
+<tr>
+<td><a href="#Featured">Is featured?</a></td>
+<td>featured</td>
+<td>1</td>
+<td>1 or 0</td>
+</tr>
+<tr>
+<td><a href="#Visibility-In-Catalog">Visibility in Catalog</a></td>
+<td>catalog_visibility</td>
+<td>visible</td>
+<td>Supported values: visible, catalog, search, hidden</td>
+</tr>
+<tr>
+<td><a href="#Short-Description">Short Description</a></td>
+<td>short_description</td>
+<td>NA</td>
+<td>NA</td>
+</tr>
+<tr>
+<td><a href="#Description">Description</a></td>
+<td>description</td>
+<td>This is more information about a product</td>
+<td>D3</td>
+</tr>
+<tr>
+<td><a href="#Date-Sale-price-starts/ends">Date sale price starts</a></td>
+<td>date_on_sale_from</td>
+<td>yyyy-mm-dd ;hh<img alt="🇲🇲" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f1f2-1f1f2.svg" title=":mm:" />ss</td>
+<td>Date or leave blank</td>
+</tr>
+<tr>
+<td><a href="#Date-Sale-price-starts/ends">Date sale price ends</a></td>
+<td>date_on_sale_to</td>
+<td>yyyy-mm-dd ;hh<img alt="🇲🇲" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f1f2-1f1f2.svg" title=":mm:" />ss</td>
+<td>Date or leave blank</td>
+</tr>
+<tr>
+<td><a href="#Tax-Status">Tax Status</a></td>
+<td>tax_status</td>
+<td>taxable</td>
+<td>Supported values: taxable, shipping, none</td>
+</tr>
+<tr>
+<td><a href="#Tax-Class">Tax class</a></td>
+<td>tax_class</td>
+<td>HSN Code</td>
+<td>Can use any existing tax class.</td>
+</tr>
+<tr>
+<td><a href="#In-Stock?">In stock?</a></td>
+<td>stock_status</td>
+<td>1</td>
+<td>1 or 0</td>
+</tr>
+<tr>
+<td><a href="#Stock">Stock</a></td>
+<td>manage_stock/stock_quantity</td>
+<td>20</td>
+<td>Numeric stock level enables stock management. parent can be used for variations. Blank = no stock management.</td>
+</tr>
+<tr>
+<td><a href="#Low-Stock-Amount">Low stock amount</a></td>
+<td>low_stock_amount</td>
+<td>3</td>
+<td>Any number or blank</td>
+</tr>
+<tr>
+<td><a href="#Backorders-Allowed?">Backorders allowed?</a></td>
+<td>backorders</td>
+<td>0</td>
+<td>0 or 1</td>
+</tr>
+<tr>
+<td><a href="#Sold-Individually">Sold individually?</a></td>
+<td>sold_individually</td>
+<td>0</td>
+<td>1 or 0</td>
+</tr>
+<tr>
+<td><a href="#Weight">Weight</a> (unit)</td>
+<td>weight</td>
+<td>100</td>
+<td>Only numbers; Unit = kgs</td>
+</tr>
+<tr>
+<td><a href="#Length">Length</a> (unit)</td>
+<td>length</td>
+<td>20</td>
+<td>Only numbers; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Width">Width</a> (unit)</td>
+<td>width</td>
+<td>20</td>
+<td>Only numbers; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Height">Height</a> (unit)</td>
+<td>Heigth</td>
+<td>20</td>
+<td>Only numbers; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Allow-Customer-Reviews?-NA">Allow customer reviews?</a></td>
+<td>reviews_allowed</td>
+<td>0</td>
+<td>1 or 0 ; NA</td>
+</tr>
+<tr>
+<td><a href="#Purchase-Note-NA">Purchase Note</a></td>
+<td>purchase_note</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#Sale-Price">Sale price</a></td>
+<td>sale_price</td>
+<td>1000</td>
+<td>Any number or blank; Unit = INR</td>
+</tr>
+<tr>
+<td><a href="#Regular-Price">Regular price</a></td>
+<td>regular_price</td>
+<td>1000</td>
+<td>Mandatory - Any number; Unit = INR</td>
+</tr>
+<tr>
+<td><a href="#Categories">Categories</a></td>
+<td>category_ids</td>
+<td>Category 1, Category 1 &gt; Category 2</td>
+<td>CSV list of categories. "&gt;" used for hierarchy.</td>
+</tr>
+<tr>
+<td><a href="#Tags">Tags</a></td>
+<td>tag_ids</td>
+<td>Tag 1, Tag 2</td>
+<td>CSV list of tags.</td>
+</tr>
+<tr>
+<td><a href="#Shipping-Class">Shipping class</a></td>
+<td>shipping_class_id</td>
+<td>Name</td>
+<td>Name of shipping class - Normal, Delhivery</td>
+</tr>
+<tr>
+<td><a href="#Images">Images</a></td>
+<td>image_id/gallery_image_ids</td>
+<td>Image url, image id, image name</td>
+<td>First is featured image</td>
+</tr>
+<tr>
+<td><a href="#Download-Limit-NA">Download Limit</a></td>
+<td>download_limit</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#Download-Expiry-Days-NA">Download expiry days</a></td>
+<td>download_expiry</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#Parent">Parent</a></td>
+<td>parent_id</td>
+<td>id:100, SKU-1</td>
+<td>Set parent ID. Used for variations. Can be just a numeric ID e.g. id:100 or a SKU. Export will use SKU when possible.</td>
+</tr>
+<tr>
+<td><a href="#Grouped-Products-NA">Grouped products</a></td>
+<td>children</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#Upsells">Upsells</a></td>
+<td>upsell_ids</td>
+<td>id:100, id:101, SKU-1, SKU-2</td>
+<td>List of IDs. Can be just a numeric ID e.g. id:100 or a SKU. Export will use SKU when possible.</td>
+</tr>
+<tr>
+<td><a href="#Cross-Sells">Cross-sells</a></td>
+<td>cross_sell_ids</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#External-URL">External URL</a></td>
+<td>product_url</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#ButtonText">Button Text</a></td>
+<td>button_text</td>
+<td>NA</td>
+<td>NA - Leave blank</td>
+</tr>
+<tr>
+<td><a href="#Position">Position</a></td>
+<td>menu_order</td>
+<td>&frac12;/3</td>
+<td>Menu order, used for sorting - enter a number</td>
+</tr>
+<tr>
+<td><a href="#Color-Taxonomy">Color taxonomy</a></td>
+<td>color_taxonomy</td>
+<td>Red,blue,multi</td>
+<td>Enter all colors seperated by comma</td>
+</tr>
+<tr>
+<td><a href="#Material-Taxonomy">Material taxonomy</a></td>
+<td>material_taxonomy</td>
+<td>cotton, linen, silk</td>
+<td>Enter all materials seperated by comma</td>
+</tr>
+<tr>
+<td><a href="#Attribute-Color">Attribute Color</a></td>
+<td>color</td>
+<td>color</td>
+<td>color code</td>
+</tr>
+<tr>
+<td><a href="#Attribute-1-name">Attribute 1 name</a></td>
+<td>attributes</td>
+<td>size</td>
+<td>Looks for global attribute or uses text if not found. Include as many as needed. "Used for variations" is set automatically.</td>
+</tr>
+<tr>
+<td><a href="#Attribute-1-value">Attribute 1 value</a></td>
+<td>attributes</td>
+<td>S, M, L, XL</td>
+<td>List of values. Variations only need 1 value. First is used if multiple get provided.</td>
+</tr>
+<tr>
+<td><a href="#Attribute-1-visible">Attribute 1 visible</a></td>
+<td>attributes</td>
+<td>1</td>
+<td>1 or 0. Mapping screen labels this as "Attribute Visibility"</td>
+</tr>
+<tr>
+<td><a href="#Attribute-1-global">Attribute 1 global</a></td>
+<td>attributes</td>
+<td>1</td>
+<td>1 or 0. Mapping screen labels this as "Is a global attribute?"</td>
+</tr>
+<tr>
+<td><a href="#Meta-Shoulder">Meta: Shoulder</a></td>
+<td>shoulder</td>
+<td>10</td>
+<td>Enter any number; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Meta-Bust">Meta: Bust</a></td>
+<td>bust</td>
+<td>10</td>
+<td>Enter any number; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Meta-Waist">Meta: Waist</a></td>
+<td>waist</td>
+<td>10</td>
+<td>Enter any number; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Meta-Hip">Meta: Hip</a></td>
+<td>hip</td>
+<td>10</td>
+<td>Enter any number; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Meta-Length">Meta: Length</a></td>
+<td>length</td>
+<td>10</td>
+<td>Enter any number; Unit = inch</td>
+</tr>
+<tr>
+<td><a href="#Meta-wc_additional_variation_images">Meta: _wc_additional_variation_images</a></td>
+<td>additional_images</td>
+<td>1234, 6538,2878</td>
+<td>Only Color attribute variations; enter numeric code</td>
+</tr>
+<tr>
+<td><a href="#Meta-wpcf-finer-details">Meta: wpcf-finer-details</a></td>
+<td>finer_details</td>
+<td>This is text related to a product</td>
+<td>Enter text</td>
+</tr>
+<tr>
+<td><a href="#Meta-wpcf-delivery-exchange">Meta: wpcf-delivery-exchange</a></td>
+<td>delivery_exchange</td>
+<td>This is text related to a products delivery/exchange/return</td>
+<td>Enter text</td>
+</tr>
+<tr>
+<td><a href="#Meta-wpcf-size-fit">Meta: wpcf-size-fit</a></td>
+<td>size_fit</td>
+<td>This is text related to a products size/fit</td>
+<td>Enter text</td>
+</tr>
+<tr>
+<td><a href="#Attribute-2-name">Attribute 2 name</a></td>
+<td>attributes</td>
+<td>color</td>
+<td>Looks for global attribute or uses text if not found. Include as many as needed. "Used for variations" is set automatically.</td>
+</tr>
+<tr>
+<td><a href="#Attribute-2-value">Attribute 2 value</a></td>
+<td>attributes</td>
+<td>red, yellow, blue</td>
+<td>List of values. Variations only need 1 value. First is used if multiple get provided.</td>
+</tr>
+<tr>
+<td><a href="#Attribute-2-visible">Attribute 2 visible</a></td>
+<td>attributes</td>
+<td>1</td>
+<td>1 or 0. Mapping screen labels this as "Attribute Visibility"</td>
+</tr>
+<tr>
+<td><a href="#Attribute-2-global">Attribute 2 global</a></td>
+<td>attributes</td>
+<td>1</td>
+<td>1 or 0. Mapping screen labels this as "Is a global attribute?"</td>
+</tr>
+</tbody>
+</table>
+<h2 id="column-fields"><strong>Column Fields</strong><a class="headerlink" href="#column-fields" title="Permanent link">&para;</a></h2>
+<p>In this section of the manual, we will discuss all the columns fields one by one:</p>
+<h3 id="id"><strong>ID</strong><a class="headerlink" href="#id" title="Permanent link">&para;</a></h3>
+<p>Once a new product is created in the system, a Product Id is generated automatically. This Product Id is unique to each product.</p>
+<p><img alt="prod id" src="../Images/Bulk-Import/prodid.jpg" /></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="type"><strong>Type</strong><a class="headerlink" href="#type" title="Permanent link">&para;</a></h3>
+<p>In the type field, enter the Product type. There are 3 options which can be entered:</p>
+<ul>
+<li><strong>Simple</strong> - A simple product is a type of product which is a unique (there is only one version), stand-alone, physical product that a customer can add to cart/purchase.</li>
+<li><strong>Variable</strong> - A variable product is a type of product which can have multiple options to choose from. For example, a t-shirt available in different colors and/or sizes.</li>
+<li><strong>Variation</strong> - These are multiple options available for a Variable product. </li>
+</ul>
+<blockquote>
+<p><strong>Note</strong> - <strong>Variation rows  should always come below the Simple and Variable rows.</strong> </p>
+</blockquote>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="type" src="../Images/Bulk-Import/type.jpg" /></td>
+<td><img alt="type1" src="../Images/Bulk-Import/type1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="sku"><strong>SKU</strong><a class="headerlink" href="#sku" title="Permanent link">&para;</a></h3>
+<p>SKU refers to a Stock-keeping unit, a unique identifier for each distinct product and service that can be purchased.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Enter the Product SKU here</td>
+<td>This is known as a Parent SKU</td>
+<td>Here enter the Variation SKU which gets uploaded in the Variation data</td>
+</tr>
+<tr>
+<td><img alt="simplesku1" src="../Images/Bulk-Import/simplesku1.jpg" /></td>
+<td><img alt="variablesku1" src="../Images/Bulk-Import/variablesku1.jpg" /></td>
+<td><img alt="variationsku1" src="../Images/Bulk-Import/variationsku1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simplesku" src="../Images/Bulk-Import/simplesku.jpg" /></td>
+<td><img alt="variablesku" src="../Images/Bulk-Import/variablesku.jpg" /></td>
+<td><img alt="variationsku" src="../Images/Bulk-Import/variationsku.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="name"><strong>Name</strong><a class="headerlink" href="#name" title="Permanent link">&para;</a></h3>
+<p>In the name field,  product name to be displayed on the website product pages is to be entered.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The name should be as to be shown on the website</td>
+<td>The name should be as to be shown on the website</td>
+<td>The name along with the variation name should be entered</td>
+</tr>
+<tr>
+<td><img alt="simplename" src="../Images/Bulk-Import/simplename.jpg" /></td>
+<td><img alt="variablename" src="../Images/Bulk-Import/variablename.jpg" /></td>
+<td><img alt="variationname" src="../Images/Bulk-Import/variationname.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simplename1" src="../Images/Bulk-Import/simplename1.jpg" /></td>
+<td><img alt="variablename1" src="../Images/Bulk-Import/variablename1.jpg" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="published"><strong>Published</strong><a class="headerlink" href="#published" title="Permanent link">&para;</a></h3>
+<p>Publishing a product means that it will be visible on the website. Till the time it is not published, the product status remains private.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = Not published (private)</li>
+<li><strong>1</strong> = Published</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="published1" src="../Images/Bulk-Import/published1.jpg" /></td>
+<td><img alt="published" src="../Images/Bulk-Import/published.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="private1" src="../Images/Bulk-Import/private1.jpg" /></td>
+<td><img alt="private" src="../Images/Bulk-Import/private.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="featured"><strong>Featured</strong><a class="headerlink" href="#featured" title="Permanent link">&para;</a></h3>
+<p>Featured field is used for marking products on homepage or any particular page in a featured category.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = Not Featured</li>
+<li><strong>1</strong> = Featured</li>
+</ul>
+<p><img alt="featured" src="../Images/Bulk-Import/featured.jpg" /></p>
+<p><strong>By default, the entry = "0" for all products as at SOI this functionality is not required.</strong></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="visibility-in-catalog"><strong>Visibility in Catalog</strong><a class="headerlink" href="#visibility-in-catalog" title="Permanent link">&para;</a></h3>
+<p>This setting determines which shop pages products will be listed on.</p>
+<p>By default, the entry on CSV = "visible"</p>
+<p><img alt="catalogvisibility" src="../Images/Bulk-Import/catalogvisibility.jpg" /></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="short-description"><strong>Short Description</strong><a class="headerlink" href="#short-description" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>The short description is not required so this field is left blank for all products.</p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="description"><strong>Description</strong><a class="headerlink" href="#description" title="Permanent link">&para;</a></h3>
+<p>In this field text describing the product is added. This is applicable to all <strong>Simple</strong> and <strong>Variable</strong> products.</p>
+<p>At variation level, this description is not required.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Required</td>
+<td>Required</td>
+<td>Not Required</td>
+</tr>
+</tbody>
+</table>
+<p>Few points to remember while adding text:</p>
+<ul>
+<li>The description text appears in the "Text" tab on the backend.</li>
+<li>Use "br in &lt;&gt;" once to go to next line; twice to insert a line space.</li>
+<li>To mark any text bold, add "strong in &lt;&gt;" at the beginning and end of the text.</li>
+</ul>
+<p>On the backend, text shows as below:</p>
+<p><img alt="desc" src="../Images/Bulk-Import/desc.jpg" /></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="date-sale-price-startsends"><strong>Date Sale price starts/ends</strong><a class="headerlink" href="#date-sale-price-startsends" title="Permanent link">&para;</a></h3>
+<p>The Date Sale price starts and Date Sale price ends fields help in setting the schedule for any sale if applicable.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The schedule is set in the General tab</td>
+<td>The sale schedule is set at Variation level</td>
+<td>The schedule is set in the variation data section</td>
+</tr>
+<tr>
+<td><img alt="simple schedule" src="../Images/Bulk-Import/simplesaleschedule.jpg" /></td>
+<td></td>
+<td><img alt="variation schedule" src="../Images/Bulk-Import/variationsaleschedule.jpg" /></td>
+</tr>
+<tr>
+<td><br></td>
+<td></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<blockquote>
+<p><strong>Note</strong> - <strong>The date format to be followed always = "yyyy-mm-dd"</strong></p>
+<p><strong>NEVER USE WRONG DATE FORMAT</strong></p>
+</blockquote>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="tax-status"><strong>Tax Status</strong><a class="headerlink" href="#tax-status" title="Permanent link">&para;</a></h3>
+<p>The tax status field defines whether or not the entire product is taxable.</p>
+<p>By default, all products at SOI are taxable. Always enter "taxable" in this field.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="taxstatus" src="../Images/Bulk-Import/taxstatus.jpg" /></td>
+<td><img alt="taxstatus1" src="../Images/Bulk-Import/taxstatus1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="tax-class"><strong>Tax Class</strong><a class="headerlink" href="#tax-class" title="Permanent link">&para;</a></h3>
+<p>Tax classes are used to apply different tax rates specific to certain types of products. Enter the applicable code in this field.</p>
+<p>Tax class is a <strong>mandatory</strong> field and relevant code should be entered.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="taxclass" src="../Images/Bulk-Import/taxclass.jpg" /></td>
+<td><img alt="taxclass1" src="../Images/Bulk-Import/taxclass1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><strong>Points to remember:</strong></p>
+<ul>
+<li>Pre-defined HSN Codes are entered in the tax class field.</li>
+<li>
+<p>HSN Code to be used should be already added in the system.</p>
+<p><img alt="taxrates" src="../Images/Bulk-Import/taxrate.jpg" /></p>
+</li>
+<li>
+<p>If HSN code not added, follow the <strong>Tax Rate Setup</strong></p>
+</li>
+</ul>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="in-stock"><strong>In stock?</strong><a class="headerlink" href="#in-stock" title="Permanent link">&para;</a></h3>
+<p>This field allows to let the system know, if the product is available or out of stock.</p>
+<p>By default, for all products of SOI, the In stock field has value as "1"</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (out of stock)</li>
+<li><strong>1</strong> = Yes (In stock)</li>
+</ul>
+<blockquote>
+<p><strong>Note</strong> - <strong>If marking "1", make sure the Stock Value is greater than 1</strong></p>
+</blockquote>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="stock"><strong>Stock</strong><a class="headerlink" href="#stock" title="Permanent link">&para;</a></h3>
+<p>Stock field refers to the stock quantity available for each product.</p>
+<p>"In case of a variable product this value will be used to control stock for all variations, unless you define stock at variation level."</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Stock quantity is set in the Inventory section</td>
+<td>Do not enter value for variable here</td>
+<td>Stock quantity is defined at the variation level</td>
+</tr>
+<tr>
+<td><img alt="simplestock1" src="../Images/Bulk-Import/simplestock1.jpg" /></td>
+<td></td>
+<td><img alt="variationstock1" src="../Images/Bulk-Import/variationstock1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simplestock" src="../Images/Bulk-Import/simplestock.jpg" /></td>
+<td></td>
+<td><img alt="variationstock" src="../Images/Bulk-Import/variationstock.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="low-stock-amount"><strong>Low Stock Amount</strong><a class="headerlink" href="#low-stock-amount" title="Permanent link">&para;</a></h3>
+<p>This refers to the threshold, which, when the product stock reaches this amount you will be notified by email.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This value is updated in the Inventory section</td>
+<td>This value is updated in the Inventory section</td>
+<td>Value is updated at variable level only</td>
+</tr>
+<tr>
+<td><img alt="simplelowstock" src="../Images/Bulk-Import/simplelowstock.jpg" /></td>
+<td><img alt="variablelowstock" src="../Images/Bulk-Import/variablelowstock.jpg" /></td>
+<td></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="backorders-allowed"><strong>Backorders Allowed?</strong><a class="headerlink" href="#backorders-allowed" title="Permanent link">&para;</a></h3>
+<p>This field controls whether or not backorders (No stock but still taking orders) are allowed. It means, if enabled, stock quantity can go below 0.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Do not allow)</li>
+<li><strong>1</strong> = Yes (Allow)</li>
+</ul>
+<p><strong>For all products of SOI, by default the value is "0"</strong></p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="simplebackorder" src="../Images/Bulk-Import/simplebackorder.jpg" /></td>
+<td><img alt="simplebackorder1" src="../Images/Bulk-Import/simplebackorder1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="variablebackorder" src="../Images/Bulk-Import/variablebackorder.jpg" /></td>
+<td><img alt="variablebackorder1" src="../Images/Bulk-Import/variablebackorder1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="variationbackorder" src="../Images/Bulk-Import/variationbackorder.jpg" /></td>
+<td><img alt="variationbackorder1" src="../Images/Bulk-Import/variationbackorder1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="sold-individually"><strong>Sold Individually</strong><a class="headerlink" href="#sold-individually" title="Permanent link">&para;</a></h3>
+<p>If this field is enabled, it would mean that the customer would be allowed to add only one product in the cart.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Do not allow)</li>
+<li><strong>1</strong> = Yes (Allow)</li>
+</ul>
+<p><strong>Since this functionality is not required for all SOI products, by default the value remains "0"</strong></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="weight"><strong>Weight</strong><a class="headerlink" href="#weight" title="Permanent link">&para;</a></h3>
+<p>Weight is part of the shipping details of all products. Entering a value to this field is mandatory.</p>
+<p>Weight should be entered in "kgs"</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The value is updated in the shipping section</td>
+<td>The value is set at variation level</td>
+<td>The value is set in the respective variation data</td>
+</tr>
+<tr>
+<td><img alt="simpleweight1" src="../Images/Bulk-Import/simpleweight1.jpg" /></td>
+<td></td>
+<td><img alt="variaitonweight1" src="../Images/Bulk-Import/variationweight1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simpleweight" src="../Images/Bulk-Import/simpleweight.jpg" /></td>
+<td><img alt="variableweight" src="../Images/Bulk-Import/variableweight.jpg" /></td>
+<td><img alt="variaitonweight" src="../Images/Bulk-Import/variationweight.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="length"><strong>Length</strong><a class="headerlink" href="#length" title="Permanent link">&para;</a></h3>
+<p>Length is part of the dimensions for  shipping details of all products. Entering a value to this field is mandatory.</p>
+<p>Length should be entered in "inches"</p>
+<h3 id="width"><strong>Width</strong><a class="headerlink" href="#width" title="Permanent link">&para;</a></h3>
+<p>Width is part of the dimensions for  shipping details of all products. Entering a value to this field is mandatory.</p>
+<p>Width should be entered in "inches"</p>
+<h3 id="height"><strong>Height</strong><a class="headerlink" href="#height" title="Permanent link">&para;</a></h3>
+<p>Height is part of the dimensions for  shipping details of all products. Entering a value to this field is mandatory.</p>
+<p>Height should be entered in "inches"</p>
+<p>The dimensions are updated as below:</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>The value is updated in the shipping section</td>
+<td>The value is set at variation level</td>
+<td>The value is set in the respective variation data</td>
+</tr>
+<tr>
+<td><img alt="simpledimension" src="../Images/Bulk-Import/simpledimensions.jpg" /></td>
+<td></td>
+<td><img alt="variationdimension" src="../Images/Bulk-Import/variationdimensions.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simplemeasurement" src="../Images/Bulk-Import/simplemeasurement.jpg" /></td>
+<td><img alt="variablemeasurement" src="../Images/Bulk-Import/variablemeasurement.jpg" /></td>
+<td><img alt="variaitonmeasurement" src="../Images/Bulk-Import/variationmeasurement.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="allow-customer-reviews"><strong>Allow Customer Reviews?</strong><a class="headerlink" href="#allow-customer-reviews" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>If enabled, this field allows the customers to leave reviews on the product pages.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Do not allow)</li>
+<li><strong>1</strong> = Yes (Allow)</li>
+</ul>
+<p><strong>Since this functionality is not required for all SOI products, by default the value remains "0"</strong></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="purchase-note"><strong>Purchase Note</strong><a class="headerlink" href="#purchase-note" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This function is not required for all SOI products, so it will be left blank.</p>
+<h3 id="sale-price"><strong>Sale Price</strong><a class="headerlink" href="#sale-price" title="Permanent link">&para;</a></h3>
+<p>Sale price is the value which is updated if and when a product goes on sale.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value is updated in the General section</td>
+<td>Value is updated at variaiton level</td>
+<td>Value updated in respective variations data</td>
+</tr>
+<tr>
+<td><img alt="simplesale" src="../Images/Bulk-Import/simplesaleprice.jpg" /></td>
+<td><img alt="variablesale" src="../Images/Bulk-Import/variablesaleprice.jpg" /></td>
+<td><img alt="variationsale" src="../Images/Bulk-Import/variationsaleprice.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="regular-price"><strong>Regular Price</strong><a class="headerlink" href="#regular-price" title="Permanent link">&para;</a></h3>
+<p>Regular price is the amount the customer pays for any product. </p>
+<p>This is a mandatory field and a value has to be entered for each product.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Value is updated in the General section</td>
+<td>Value is updated at variaiton level</td>
+<td>Value updated in respective variations data</td>
+</tr>
+<tr>
+<td><img alt="simpleregular" src="../Images/Bulk-Import/simpleregular.jpg" /></td>
+<td><img alt="variableregular" src="../Images/Bulk-Import/variableregular.jpg" /></td>
+<td><img alt="variationregular" src="../Images/Bulk-Import/variationregular.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="simpleregularprice" src="../Images/Bulk-Import/simpleregularprice.jpg" /></td>
+<td><img alt="variableregularprice" src="../Images/Bulk-Import/variableregularprice.jpg" /></td>
+<td><img alt="variationregularprice" src="../Images/Bulk-Import/variationregularprice.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="categories"><strong>Categories</strong><a class="headerlink" href="#categories" title="Permanent link">&para;</a></h3>
+<p>Product categories help in organizing the products. Categories are the primary way to group products with similar features. You can also add sub-categories if desired. We refer to them as levels.</p>
+<ul>
+<li>L1 - Parent Category</li>
+<li>L2 - Sub-category</li>
+<li>L3 - Sub-sub-category</li>
+</ul>
+<p>When making an entry in the CSV file a sequence needs to be followed in order to update the backend in the required manner.</p>
+<p>The sequence is defined by using a "&gt;" sign between each level and seperated by commas. Let's look at the example below to understand this:</p>
+<p><strong>L1&gt;L2&gt;L3,L1&gt;L2,L1</strong></p>
+<p>OR</p>
+<p><strong>L1,L1&gt;L2,L1&gt;L2&gt;L3</strong></p>
+<p>Here:</p>
+<p>L1 = Parent Category
+L1&gt;L2 = Sub-category under the Parent category
+L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
+<p>The category field is updated only in the <strong>Simple</strong> and <strong>Variable</strong> products. It is not required in the Variations.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="category" src="../Images/Bulk-Import/category.jpg" /></td>
+<td><img alt="category1" src="../Images/Bulk-Import/category1.jpg" /></td>
+</tr>
+<tr>
+<td><img alt="category2" src="../Images/Bulk-Import/category2.jpg" /></td>
+<td><img alt="category3" src="../Images/Bulk-Import/category3.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="tags"><strong>Tags</strong><a class="headerlink" href="#tags" title="Permanent link">&para;</a></h3>
+<p>Product tags are another way to relate products to each other. These are keywords which can be used in searching products on the website.</p>
+<p>In this field enter keywords seperated by commas.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="tags" src="../Images/Bulk-Import/tags.jpg" /></td>
+<td><img alt="tags1" src="../Images/Bulk-Import/tags1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="shipping-class"><strong>Shipping Class</strong><a class="headerlink" href="#shipping-class" title="Permanent link">&para;</a></h3>
+<p>Shipping classes are used by certain shipping methods to group similar products. It allows you to control important details about a physical product (weight, dimensions) for shipping.</p>
+<p>Only 2 options are available, which should be entered as per product category:</p>
+<ul>
+<li>Normal</li>
+<li>Delhivery (Primarily used for Home &amp; Living products)</li>
+</ul>
+<p>Shipping class is a mandatory field and one of the above options should be entered.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Entry is required for all products</td>
+<td>Updations happen as per entry</td>
+</tr>
+<tr>
+<td><img alt="shippingclass" src="../Images/Bulk-Import/shippingclass.jpg" /></td>
+<td><img alt="shippingclass1" src="../Images/Bulk-Import/shippingclass1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="images"><strong>Images</strong><a class="headerlink" href="#images" title="Permanent link">&para;</a></h3>
+<p>The Images field refers to the <strong>Product Image</strong> and <strong>Product Gallery Images</strong> on the backend.</p>
+<p>Some tips to fill this field:</p>
+<ul>
+<li>The complete image URL has to be entered. </li>
+<li>An Image Id/name can also be entered.</li>
+<li>Multiple URL's/Id's can be entered seperated by commas. </li>
+<li>the 1<sup>st</sup> URL entered will represent the Product/featured image.</li>
+<li>All other URL's represent the Product Gallery images.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="images" src="../Images/Bulk-Import/images.jpg" /></td>
+<td><img alt="images1" src="../Images/Bulk-Import/images1.jpg" /></td>
+</tr>
+<tr>
+<td>Entry required only for Simple and Variable products</td>
+<td>Updated under respective products</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="download-limit"><strong>Download Limit</strong><a class="headerlink" href="#download-limit" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This field is not required and is left blank.</p>
+<h3 id="download-expiry-days"><strong>Download Expiry Days</strong><a class="headerlink" href="#download-expiry-days" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This field is not required and is left blank.</p>
+<h3 id="parent"><strong>Parent</strong><a class="headerlink" href="#parent" title="Permanent link">&para;</a></h3>
+<p>The Parent field refers to the Parent SKU as entered in all variable products.</p>
+<p>The parent field is required only for <strong>variation</strong> rows. Each variation of a particular variable product is linked to the parent product through this field.</p>
+<p>It is mandatory to enter the correct corresponding Parent SKu against the variations, in order to update the backend and frontend correctly.</p>
+<p>The below example explains this:</p>
+<p><img alt="parent" src="../Images/Bulk-Import/parent.jpg" /></p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="grouped-products"><strong>Grouped Products</strong><a class="headerlink" href="#grouped-products" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This field is not required and is left blank.</p>
+<h3 id="upsells"><strong>Upsells</strong><a class="headerlink" href="#upsells" title="Permanent link">&para;</a></h3>
+<p>Up-sells are displayed on the product details page. These are products that are displayed to encourage users to upgrade, based on the product they are currently viewing. </p>
+<p>This field will include the <strong>Product Id</strong> or <strong>Parent SKU</strong> of products to be shown and should be seperated by a comma.</p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="cross-sells"><strong>Cross-Sells</strong><a class="headerlink" href="#cross-sells" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This field is not required and is left blank.</p>
+<h3 id="external-url"><strong>External URL</strong><a class="headerlink" href="#external-url" title="Permanent link">&para;</a></h3>
+<p><strong>NA</strong></p>
+<p>This field is not required and is left blank.</p>
+<h3 id="button-text-na"><strong>Button Text - NA</strong><a class="headerlink" href="#button-text-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="position"><strong>Position</strong><a class="headerlink" href="#position" title="Permanent link">&para;</a></h3>
+<p>The number entered in the Position field, defines the position of the variations of a variable product. It decides the sequence in which the variations will show on the front-end/website product page.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Not required</td>
+<td>Not required</td>
+<td>Required - Mandatory</td>
+</tr>
+</tbody>
+</table>
+<p><br></p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As Updated in Backend</th>
+<th>As appears on Frontend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="position" src="../Images/Bulk-Import/position.jpg" /></td>
+<td><img alt="position1" src="../Images/Bulk-Import/position1.jpg" /></td>
+<td><img alt="position2" src="../Images/Bulk-Import/position2.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="color-taxonomy"><strong>Color Taxonomy</strong><a class="headerlink" href="#color-taxonomy" title="Permanent link">&para;</a></h3>
+<p>Colors help in organizing, searching the products on the basis of color category/family.</p>
+<p>On the front-end these colors are available as color filters to select from.</p>
+<p>In the color taxonomy field, all the product related colors should be entered seperated by a comma.</p>
+<p>This field should be updated only for <strong>Simple</strong> and <strong>Variable</strong> rows.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+<th>As appears on Frontend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="colors" src="../Images/Bulk-Import/color.jpg" /></td>
+<td><img alt="colors1" src="../Images/Bulk-Import/colors1.jpg" /></td>
+<td><img alt="colorfilter" src="../Images/Bulk-Import/colorfilter.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="material-taxonomy"><strong>Material Taxonomy</strong><a class="headerlink" href="#material-taxonomy" title="Permanent link">&para;</a></h3>
+<p>Materials help in organizing the products on the basis of material used (fabric, accessories).</p>
+<p>On the front-end these materials are available as material filters to select from.</p>
+<p>In the material taxonomy field, all the product related materials should be entered seperated by a comma.</p>
+<p>This field should be updated only for <strong>Simple</strong> and <strong>Variable</strong> rows.</p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+<th>As appears on Frontend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="material" src="../Images/Bulk-Import/material.jpg" /></td>
+<td><img alt="materials1" src="../Images/Bulk-Import/materials1.jpg" /></td>
+<td><img alt="materialfilter" src="../Images/Bulk-Import/materialfilter.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-color"><strong>Attribute Color</strong><a class="headerlink" href="#attribute-color" title="Permanent link">&para;</a></h3>
+<p>The attribute color field is applicable only to <strong>Variable</strong> and <strong>variation</strong> rows for products which have only color variations.</p>
+<p>This field defines the color tone for each variation. These color tones are visible on the product page.</p>
+<p>Entry to be done = Color name|Corresponding color code (The color code is designated by "#' and a alpha-number, eg. #ebf9ff)</p>
+<table>
+<thead>
+<tr>
+<th>Product Type</th>
+<th>Entry In CSV</th>
+<th>As appears on Frontend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Variable</td>
+<td><img alt="variableattributecolor" src="../Images/Bulk-Import/variableattributecolor.jpg" /></td>
+<td><img alt="attributecolor2" src="../Images/Bulk-Import/attributecolor2.jpg" /></td>
+</tr>
+<tr>
+<td>Variation</td>
+<td><img alt="attributecolor" src="../Images/Bulk-Import/attributecolor.jpg" /></td>
+<td><img alt="attributecolor2" src="../Images/Bulk-Import/attributecolor2.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-1-name"><strong>Attribute 1 name</strong><a class="headerlink" href="#attribute-1-name" title="Permanent link">&para;</a></h3>
+<p>In this field, name of the required attribute is added. This column field is dedicated to the <strong>size</strong> attribute.</p>
+<p>For all products, the entry remains same.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Required - Size</td>
+<td>Required - Size</td>
+<td>Required - Size</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-1-values"><strong>Attribute 1 Value(s)</strong><a class="headerlink" href="#attribute-1-values" title="Permanent link">&para;</a></h3>
+<p>In this field, all values associated with Attribute 1 should be entered.</p>
+<p>This is a required field for all rows - Simple, Variable, Variation</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will have a single entry (could be a measurement or size)</td>
+<td>Here all possible variation values to be entered</td>
+<td>Enter only variation specific value</td>
+</tr>
+<tr>
+<td><img alt="simpleattribute1value" src="../Images/Bulk-Import/simpleattribute1value.jpg" /></td>
+<td><img alt="variableattribute1value" src="../Images/Bulk-Import/variableattribute1value.jpg" /></td>
+<td><img alt="variationattribute1value" src="../Images/Bulk-Import/variationattribute1value.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-1-visible"><strong>Attribute 1 visible</strong><a class="headerlink" href="#attribute-1-visible" title="Permanent link">&para;</a></h3>
+<p>Attribute to be visible means that it appears on the product page.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Not visible)</li>
+<li><strong>1</strong> = Yes (Visible)</li>
+</ul>
+<p>This field is updated only for <strong>Simple</strong> and <strong>Variable</strong> rows. The value should always be "1" </p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="attribute1visible" src="../Images/Bulk-Import/attribute1visible.jpg" /></td>
+<td><img alt="attribute1visible1" src="../Images/Bulk-Import/attribute1visible1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-1-global"><strong>Attribute 1 global</strong><a class="headerlink" href="#attribute-1-global" title="Permanent link">&para;</a></h3>
+<p>Attribute to be global means that the attributes are available to choose from.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Not visible)</li>
+<li><strong>1</strong> = Yes (Visible)</li>
+</ul>
+<p>This field is updated for all rows - Simple, Variable, Variation. The value should always be "1" </p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-_wpv_contains_gutenberg_views-na"><strong>Meta: _wpv_contains_gutenberg_views - NA</strong><a class="headerlink" href="#meta-_wpv_contains_gutenberg_views-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required/not applicable and is left blank.</p>
+<h3 id="meta-shoulder"><strong>Meta: Shoulder</strong><a class="headerlink" href="#meta-shoulder" title="Permanent link">&para;</a></h3>
+<p>This field consists of the Shoulder measurement for all products in the <strong>Uppers</strong> (blouses, dresses, kurtas) category.</p>
+<ul>
+<li>This field is only required for <strong>Variation</strong> rows.</li>
+<li>The shoulder measurement helps in differentiating between variations sizes.</li>
+<li>Measurement unit to be used is "inch".</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="shoulder" src="../Images/Bulk-Import/shoulder.jpg" /></td>
+<td><img alt="shoulder1" src="../Images/Bulk-Import/shoulder1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-bust"><strong>Meta: Bust</strong><a class="headerlink" href="#meta-bust" title="Permanent link">&para;</a></h3>
+<p>This field consists of the Bust/chest measurement for all products in the <strong>Uppers</strong> (blouses, dresses, kurtas) category.</p>
+<ul>
+<li>This field is only required for <strong>Variation</strong> rows.</li>
+<li>The bust measurement helps in differentiating between variation sizes.</li>
+<li>Measurement unit to be used is "inch".</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="bust" src="../Images/Bulk-Import/bust.jpg" /></td>
+<td><img alt="bust1" src="../Images/Bulk-Import/bust1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-waist"><strong>Meta: Waist</strong><a class="headerlink" href="#meta-waist" title="Permanent link">&para;</a></h3>
+<p>This field consists of the waist measurement for all products in the <strong>Lowers</strong> (skirts, pyjamas, salwars, trousers) category.</p>
+<ul>
+<li>This field is only required for <strong>Variation</strong> rows.</li>
+<li>The waist measurement helps in differentiating between variation sizes.</li>
+<li>Measurement unit to be used is "inch".</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="waist" src="../Images/Bulk-Import/waist.jpg" /></td>
+<td><img alt="waist1" src="../Images/Bulk-Import/waist1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-hip"><strong>Meta: Hip</strong><a class="headerlink" href="#meta-hip" title="Permanent link">&para;</a></h3>
+<p>This field consists of the hip measurement for all products in the <strong>Lowers</strong> (skirts, pyjamas, salwars, trousers) category.</p>
+<ul>
+<li>This field is only required for <strong>Variation</strong> rows.</li>
+<li>The hip measurement helps in differentiating between variation sizes.</li>
+<li>Measurement unit to be used is "inch".</li>
+</ul>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-length"><strong>Meta: Length</strong><a class="headerlink" href="#meta-length" title="Permanent link">&para;</a></h3>
+<p>This field consists of the length measurement for all products in the <strong>Lowers</strong> &amp; <strong>Uppers</strong> (Shirts, blouses, kurtas, skirts, pyjamas, salwars, trousers) category.</p>
+<ul>
+<li>This field is only required for <strong>Variation</strong> rows.</li>
+<li>The Length measurement helps in differentiating between variation sizes.</li>
+<li>Measurement unit to be used is "inch".</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="length" src="../Images/Bulk-Import/length.jpg" /></td>
+<td><img alt="length1" src="../Images/Bulk-Import/length1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-_wc_additional_variation_images"><strong>Meta: _wc_additional_variation_images</strong><a class="headerlink" href="#meta-_wc_additional_variation_images" title="Permanent link">&para;</a></h3>
+<p>For every product with a color variation, more images related only to that variation can be added as additional images. On the Front-end, these images with each color of the product.</p>
+<ul>
+<li>This field is updated only for the <strong>Variation</strong> rows.</li>
+<li>Multiple additional images can be uploaded for each color variation.</li>
+<li>Each image is assigned with a numeric code. These codes, seperated by comma are entered in this field.</li>
+</ul>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="additionalimages" src="../Images/Bulk-Import/additionalimages.jpg" /></td>
+<td><img alt="additionalimages1" src="../Images/Bulk-Import/additionalimages1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-_wp_old_date-na"><strong>Meta: _wp_old_date - NA</strong><a class="headerlink" href="#meta-_wp_old_date-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="meta-_layouts_template-na"><strong>Meta: _layouts_template - NA</strong><a class="headerlink" href="#meta-_layouts_template-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="meta-_wp_page_template-na"><strong>Meta: _wp_page_template - NA</strong><a class="headerlink" href="#meta-_wp_page_template-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="meta-views_woo_price-na"><strong>Meta: views_woo_price - NA</strong><a class="headerlink" href="#meta-views_woo_price-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="meta-views_woo_in_stock-na"><strong>Meta: views_woo_in_stock - NA</strong><a class="headerlink" href="#meta-views_woo_in_stock-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="meta-wpcf-finer-details"><strong>Meta: wpcf-finer-details</strong><a class="headerlink" href="#meta-wpcf-finer-details" title="Permanent link">&para;</a></h3>
+<p>The finer details field may include details related to the fabric used, care instructions, etc.</p>
+<p>Points of consideration while entering text in this field:</p>
+<ul>
+<li>This field can be upated for <strong>Simple</strong> and <strong>Variable</strong> rows.</li>
+<li>The text entered will be updated in the <strong>Text</strong> tab.</li>
+<li>To give line break : add "br in &lt;&gt;" at end of line twice. This will insert a blank line and take you to the next line.</li>
+<li>To make text bold : add "strong in &lt;&gt;" at the start and end of text. </li>
+</ul>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-wpcf-delivery-exchange"><strong>Meta: wpcf-delivery-exchange</strong><a class="headerlink" href="#meta-wpcf-delivery-exchange" title="Permanent link">&para;</a></h3>
+<p>The delivery/ exchange field contains information regarding shipping, return of product etc. </p>
+<p>Points of consideration while entering text in this field:</p>
+<ul>
+<li>This field can be upated for <strong>Simple</strong> and <strong>Variable</strong> rows.</li>
+<li>The text entered will be updated in the <strong>Text</strong> tab.</li>
+<li>To give line break : add "br in &lt;&gt;" at end of line twice. This will insert a blank line and take you to the next line.</li>
+<li>To make text bold : add "strong in &lt;&gt;" at the start and end of text.</li>
+</ul>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-wpcf-size-fit"><strong>Meta: wpcf-size-fit</strong><a class="headerlink" href="#meta-wpcf-size-fit" title="Permanent link">&para;</a></h3>
+<p>Any instructions regarding the size and fit can be added here. </p>
+<p>Points of consideration while entering text in this field:</p>
+<ul>
+<li>This field can be upated for <strong>Simple</strong> and <strong>Variable</strong> rows.</li>
+<li>The text entered will be updated in the <strong>Text</strong> tab.</li>
+<li>To give line break : add "br in &lt;&gt;" at end of line twice. This will insert a blank line and take you to the next line.</li>
+<li>To make text bold : add "strong in &lt;&gt;" at the start and end of text.</li>
+</ul>
+<p>Below is an example of how text is updated in the abpve fields: </p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As update in Backend</th>
+<th>As appears on Frontend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="delexc1" src="../Images/Bulk-Import/deliveryexchange1.jpg" /></td>
+<td><img alt="delexc" src="../Images/Bulk-Import/delexc.jpg" /></td>
+<td><img alt="delexc2" src="../Images/Bulk-Import/deliveryexchange2.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="meta-_views_template-na"><strong>Meta: _views_template - NA</strong><a class="headerlink" href="#meta-_views_template-na" title="Permanent link">&para;</a></h3>
+<p>This field is not required and is left blank.</p>
+<h3 id="attribute-2-name"><strong>Attribute 2 name</strong><a class="headerlink" href="#attribute-2-name" title="Permanent link">&para;</a></h3>
+<p>In this field, name of the required attribute is added. This column field is dedicated to the <strong>color</strong> attribute.</p>
+<p>For all products, the entry remains same.</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>Required - Color</td>
+<td>Required - Color</td>
+<td>Required - Color</td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-2-value"><strong>Attribute 2 Value</strong><a class="headerlink" href="#attribute-2-value" title="Permanent link">&para;</a></h3>
+<p>In this field, all values associated with Attribute 2 should be entered.</p>
+<p>This is a required field for all rows - Simple, Variable, Variation</p>
+<table>
+<thead>
+<tr>
+<th>Simple</th>
+<th>Variable</th>
+<th>Variation</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>This will have a single entry (only 1 color)</td>
+<td>Here all possible variation values to be entered</td>
+<td>Enter only variation specific value</td>
+</tr>
+<tr>
+<td><img alt="simpleattribute2value" src="../Images/Bulk-Import/simpleattribute2value.jpg" /></td>
+<td><img alt="variableattribute2value" src="../Images/Bulk-Import/variableattribute2value.jpg" /></td>
+<td><img alt="variationattribute2value" src="../Images/Bulk-Import/variationattribute2value.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-2-visible"><strong>Attribute 2 visible</strong><a class="headerlink" href="#attribute-2-visible" title="Permanent link">&para;</a></h3>
+<p>Attribute to be visible means that it appears on the product page.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Not visible)</li>
+<li><strong>1</strong> = Yes (Visible)</li>
+</ul>
+<p>This field is updated only for <strong>Simple</strong> and <strong>Variable</strong> rows. The value should always be "1" </p>
+<table>
+<thead>
+<tr>
+<th>Entry in CSV</th>
+<th>As updated in Backend</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td><img alt="attribute2visible" src="../Images/Bulk-Import/attribute2visible.jpg" /></td>
+<td><img alt="attribute2visible1" src="../Images/Bulk-Import/attribute2visible1.jpg" /></td>
+</tr>
+</tbody>
+</table>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+<h3 id="attribute-2-global"><strong>Attribute 2 global</strong><a class="headerlink" href="#attribute-2-global" title="Permanent link">&para;</a></h3>
+<p>Attribute to be global means that the attributes are available to choose from.</p>
+<p>In the CSV file, only 2 values can be entered:</p>
+<ul>
+<li><strong>0</strong> = No (Not visible)</li>
+<li><strong>1</strong> = Yes (Visible)</li>
+</ul>
+<p>This field is updated for all rows - Simple, Variable, Variation. The value should always be "1" </p>
+<p><a href="#CSV-columns-and-formatting">Back to Table</a></p>
+                
+                  
+                    
+
+<hr>
+<div class="md-source-date">
+  <small>
+    
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 17, 2020</span>
+    
+  </small>
+</div>
+                  
+                
+              
+              
+                
+
+
+              
+            </article>
+          </div>
+        </div>
+      </main>
+      
+        
+<footer class="md-footer">
+  
+    <div class="md-footer-nav">
+      <nav class="md-footer-nav__inner md-grid" aria-label="Footer">
+        
+          <a href="../Add-Products/" title="Add Products" class="md-footer-nav__link md-footer-nav__link--prev" rel="prev">
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
+            </div>
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Previous
+                </span>
+                Add Products
+              </div>
+            </div>
+          </a>
+        
+        
+          <a href="../Bulk-Import/" title="Bulk Import" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+            <div class="md-footer-nav__title">
+              <div class="md-ellipsis">
+                <span class="md-footer-nav__direction">
+                  Next
+                </span>
+                Bulk Import
+              </div>
+            </div>
+            <div class="md-footer-nav__button md-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
+            </div>
+          </a>
+        
+      </nav>
+    </div>
+  
+  <div class="md-footer-meta md-typeset">
+    <div class="md-footer-meta__inner md-grid">
+      <div class="md-footer-copyright">
+        
+        Made with
+        <a href="https://squidfunk.github.io/mkdocs-material/" target="_blank" rel="noopener">
+          Material for MkDocs
+        </a>
+      </div>
+      
+    </div>
+  </div>
+</footer>
+      
+    </div>
+    
+      <script src="../../assets/javascripts/vendor.92ffa368.min.js"></script>
+      <script src="../../assets/javascripts/bundle.5123e3d4.min.js"></script><script id="__lang" type="application/json">{"clipboard.copy": "Copy to clipboard", "clipboard.copied": "Copied to clipboard", "search.config.lang": "en", "search.config.pipeline": "trimmer, stopWordFilter", "search.config.separator": "[\\s\\-]+", "search.result.placeholder": "Type to start searching", "search.result.none": "No matching documents", "search.result.one": "1 matching document", "search.result.other": "# matching documents"}</script>
+      
+      <script>
+        app = initialize({
+          base: "../..",
+          features: ["instant"],
+          search: Object.assign({
+            worker: "../../assets/javascripts/worker/search.a68abb33.min.js"
+          }, typeof search !== "undefined" && search)
+        })
+      </script>
+      
+    
+  </body>
+</html>
