@@ -9,8 +9,10 @@ nav:
   - Products: 
     - Introduction: 'Products/Introduction.md'
     - Add Products: 'Products/Add-Products.md'
+    - Import-Export CSV Format: 'Products/Import-Export-CSV-Format.md'
     - Bulk Import: 'Products/Bulk-Import.md'
     - Bulk Export: 'Products/Bulk-Export.md'
+  - Administrator: 'Administrator.md'
 theme:
   name: material
   features:
