@@ -1,4 +1,4 @@
-#   **Administrator**
+#   **2FA Authy Login**
 
 ##  **Introduction**
 
@@ -24,11 +24,11 @@ In this section, we will look at the steps to be followed to add a New user with
 3.  Click -> **Users**
 4.  Click -> **Add New**
 
-    ![add new](Administrator\addnew.jpg)
+    ![add new](2FA-images\addnew.jpg)
 
 5.  Fill the below form:
 
-    ![form](Administrator\form.jpg)
+    ![form](2FA-images\form.jpg)
 
     -   **User Name** - It is a required field. Add any name you wish. The filed is case sensitive so it is advised not to use capital letters.
     -   **Email** - This is a required field. Enter the email id. The entered email id cannot be used for any other role.
@@ -45,22 +45,22 @@ In this section, we will look at the steps to be followed to add a New user with
 
 Once the user is created, an email notification is received on the registered email id. This email helps in making the created account active.
 
-![mail recvd](Administrator\mailrecvd.jpg)
+![mail recvd](2FA-images\mailrecvd.jpg)
 
 Follow the below steps:
 
 1.  Click -> Link in the email
 
-    ![mail link](Administrator\maillink.jpg)
+    ![mail link](2FA-images\maillink.jpg)
 
 2.  Copy the password shown and save
 3.  Click -> Reset the password
 
-    ![password](Administrator\password.jpg)
+    ![password](2FA-images\password.jpg)
 
 4.  Once password is rest, login with the Username and password.
 
-    ![password reset](Administrator\passwordreset.jpg)
+    ![password reset](2FA-images\passwordreset.jpg)
 
 
 >   **Note - Never save passwords on the working machine.**
@@ -80,12 +80,12 @@ Authy is the authenticator app that we use to enable the 2FA. Below are the step
 1.  Go to -> <a href="https://authy.com/" target="_blank">**Authy Website**</a>
 2.  On top right side corner, Click -> **Download**
 
-    ![authy download](Administrator\authydownload.jpg)
+    ![authy download](2FA-images\authydownload.jpg)
 
 3.  Go to -> **Desktop**
 4.  Select your operating system - mac/windows
 
-    ![authy desktop](Administrator\authydesktop.jpg)
+    ![authy desktop](2FA-images\authydesktop.jpg)
 
 5.  Run **Setup** to install Authy on your machine.
 
@@ -95,23 +95,23 @@ Authy is the authenticator app that we use to enable the 2FA. Below are the step
 1.  Run **Setup** to install Authy on your machine.
 2.  Select Country -> India (+91)
 
-    ![country](Administrator\country.jpg)
+    ![country](2FA-images\country.jpg)
 
 3.  Enter -> Mobile number, Click **Next**
 
-    ![click next](Administrator\clicknext.jpg)
+    ![click next](2FA-images\clicknext.jpg)
 
 4.  Enter -> email id for notifications
 
-    ![email](Administrator\email.jpg)
+    ![email](2FA-images\email.jpg)
     
 5.  Select -> SMS - to receive verification code
 
-    ![sms verify](Administrator\smsverify.jpg)
+    ![sms verify](2FA-images\smsverify.jpg)
 
 6.  Enter -> Code received on mobile number
 
-    ![enter code](Administrator\entercode.jpg)
+    ![enter code](2FA-images\entercode.jpg)
 
 Now your Authy setup is complete.
 
@@ -120,23 +120,23 @@ Now your Authy setup is complete.
 
 1.  Click -> "+" sign
 
-    ![click +](Administrator\click+.jpg)
+    ![click +](2FA-images\click+.jpg)
 
 2.  Generate code in the website admin panel. Steps to get code are below:
 
     -   Go to -> Admin Panel
     -   Go to -> **Wordfence** -> **Login Security**
 
-        ![wordfence](Administrator\wordfence.jpg)
+        ![wordfence](2FA-images\wordfence.jpg)
 
     -   Copy code visible under the Bar code
 
-        ![copy code](Administrator\copycode.jpg)
+        ![copy code](2FA-images\copycode.jpg)
 
 3.  Paste the code in Authy
 4.  Click -> **Add account**
 
-    ![past in authy](Administrator\pasteinauthy.jpg)
+    ![past in authy](2FA-images\pasteinauthy.jpg)
 
 5.  Add -> **Account Name**
 
@@ -144,25 +144,25 @@ Now your Authy setup is complete.
 
 6.  Scroll to the bottom of given list. Select -> **Wordpress**
 
-    ![select wordpress](Administrator\selectwordpress.jpg)
+    ![select wordpress](2FA-images\selectwordpress.jpg)
 
 7.  Choose -> **Token Length** - Recommended length is 6 digit
 
-    ![token length](Administrator\tokenlength.jpg)
+    ![token length](2FA-images\tokenlength.jpg)
 
 8.  Click -> **Save** 
 9.  Copy the visible code. This code changes every 30 seconds.
 
-    ![copy6digit code](Administrator\copy6digitcode.jpg)
+    ![copy6digit code](2FA-images\copy6digitcode.jpg)
 
 10. Go back to -> Admin Panel
 11. Paste code under section 2
 
-    ![pastecode](Administrator\pastecode.jpg)
+    ![pastecode](2FA-images\pastecode.jpg)
 
 12. Click -> **Activate**
 
-    ![clickactivate](Administrator\clickactivate.jpg)
+    ![clickactivate](2FA-images\clickactivate.jpg)
 
 ### **Recovery Codes**
 
@@ -170,7 +170,7 @@ Once the connection between Authy and Admin account is set up, a pop-up comes up
 
 1.  Click -> **Download** : The text file has 5 extra codes in case the previous code is lost.
 
-    ![download recovery codes](Administrator\downloadrecoverycodes.jpg)
+    ![download recovery codes](2FA-images\downloadrecoverycodes.jpg)
 
 2.  Save for future use.
 
@@ -187,12 +187,12 @@ Once the connection between Authy and Admin account is set up, a pop-up comes up
 2.  Enter Username and Password
 3.  Click -> **Log In**
 
-    ![login](Administrator\login.jpg)
+    ![login](2FA-images\login.jpg)
 
 4.  When the **2FA Code** prompt appears -> enter the code from the authy app; this code gets updated every 30 seconds
 5.  Again Click -> **Log In**
 
-    ![2falogin](Administrator\2falogin.jpg)
+    ![2falogin](2FA-images\2falogin.jpg)
 
 
 ##  **Important - Enable 2FA based on Roles**
@@ -202,12 +202,12 @@ Once, all the above steps have been followed and the 2FA has been setup, the mos
 1.  Go to -> **Admin Panel**
 2.  Go to -> **Wordfence** -> **Login Security**
 
-    ![wordfence](Administrator\wordfence.jpg)
+    ![wordfence](2FA-images\wordfence.jpg)
 
 3.  Click -> **Settings**
 4.  Tick mark the checkbox -> **Enable 2FA for these roles** - Select the required role
 
-    ![enable2fa](Administrator\enable2fa.jpg)
+    ![enable2fa](2FA-images\enable2fa.jpg)
 
 5.  Click -> **Save settings**
 
@@ -219,9 +219,9 @@ To delete a user, follow the below steps:
 
 1.  Go to -> **Users** -> **All Users**
 
-    ![allusers](Administrator\allusers.jpg)
+    ![allusers](2FA-images\allusers.jpg)
 
 2.  Hover over the user you want to delete.
 3.  Click -> **Delete**
 
-    ![deleteuser](Administrator\deleteuser.jpg)
+    ![deleteuser](2FA-images\deleteuser.jpg)

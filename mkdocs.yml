@@ -1,4 +1,4 @@
-site_name: Shade of India Documentation 
+site_name: Shades of India Documentation 
 nav:
   - Website Customization:  
     - Intro: 'Website-Customization/Intro.md'
@@ -12,7 +12,11 @@ nav:
     - Import-Export CSV Format: 'Products/Import-Export-CSV-Format.md'
     - Bulk Import: 'Products/Bulk-Import.md'
     - Bulk Export: 'Products/Bulk-Export.md'
-  - Administrator: 'Administrator.md'
+  - WooCommerce Settings: 
+    - Tax Rate Setup: 'WooCommerce-Settings/Tax-Rate-Setup.md'
+  - 2FA Authy Login: '2FA-Authy-Login.md'
+  - Delhivery: 'Delhivery.md'
+  - Coupons: 'Coupons.md'
 theme:
   name: material
   features:

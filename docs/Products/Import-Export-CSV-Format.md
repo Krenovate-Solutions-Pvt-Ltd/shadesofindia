@@ -1,5 +1,6 @@
 #   **Import/Export CSV Format**
 
+
 ##  **Introduction**
 
 The Import/Export feature in the Admin panel, allows the administrator to create/upload/edit bulk products in one go.
@@ -11,6 +12,7 @@ Maintaining the format of all columns is of utmost importance in order import al
 A sample CSV file is below:
 
 ![sample](Images\Bulk-Import\sample.jpg)
+
 
 
 ##  **CSV columns and formatting**
@@ -36,13 +38,13 @@ CSV Column Name | Maps to Product Property | Example | Notes
  [**In stock?**](#in-stock?) | stock_status | 1 | 1 or 0
  [**Stock**](#stock) | manage_stock/stock_quantity | 20 | Numeric stock level enables stock management. parent can be used for variations. Blank = no stock management.
  [**Low stock amount**](#low-stock-amount) | low_stock_amount | 3 | Any number or blank  
- [Backorders allowed?](#backorders-allowed?) | backorders | 0 | 0 or 1 
- [**Sold individually?**](#sold-individually?) | sold_individually | 0 | 1 or 0
+ [**Backorders allowed?**](#backorders-allowed-?) | backorders | 0 | 0 or 1 
+ [**Sold individually?**](#sold-individually-?) | sold_individually | 0 | 1 or 0
  [**Weight**](#weight) (unit) | weight | 100 | Only numbers; Unit = kgs  
  [**Length**](#length) (unit) | length | 20 | Only numbers; Unit = inch 
  [**Width**](#width) (unit) | width | 20 | Only numbers; Unit = inch 
  [**Height**](#height) (unit) | Heigth | 20 | Only numbers; Unit = inch   
- [**Allow customer reviews?**](#allow-customer-reviews?) | reviews_allowed | 0 | 1 or 0 ; NA 
+ [**Allow customer reviews-?**](#allow-customer-reviews?) | reviews_allowed | 0 | 1 or 0 ; NA 
  [**Purchase Note**](#purchase-note) | purchase_note | NA | NA - Leave blank
  [**Sale price**](#sale-price) | sale_price | 1000 | Any number or blank; Unit = INR  
  [**Regular price**](#regular-price) | regular_price | 1000 | Mandatory - Any number; Unit = INR  
@@ -93,7 +95,7 @@ Once a new product is created in the system, a Product Id is generated automatic
 ![prod id](Images\Bulk-Import\prodid.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Type**
 
@@ -111,7 +113,7 @@ Entry in CSV | As updated in Backend
  ![type](Images\Bulk-Import\type.jpg) |![type1](Images\Bulk-Import\type1.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **SKU** 
 
@@ -124,7 +126,7 @@ Simple | Variable | Variation
  ![simplesku1](Images\Bulk-Import\simplesku1.jpg)| ![variablesku1](Images\Bulk-Import\variablesku1.jpg) | ![variationsku1](Images\Bulk-Import\variationsku1.jpg)
  ![simplesku](Images\Bulk-Import\simplesku.jpg)| ![variablesku](Images\Bulk-Import\variablesku.jpg)| ![variationsku](Images\Bulk-Import\variationsku.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Name**
 
@@ -137,7 +139,7 @@ Simple | Variable | Variation
  ![simplename](Images\Bulk-Import\simplename.jpg) |![variablename](Images\Bulk-Import\variablename.jpg) | ![variationname](Images\Bulk-Import\variationname.jpg)
  ![simplename1](Images\Bulk-Import\simplename1.jpg) | ![variablename1](Images\Bulk-Import\variablename1.jpg) | 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Published**
 
@@ -155,7 +157,7 @@ Entry in CSV |  As updated in Backend
  ![published1](Images\Bulk-Import\published1.jpg) | ![published](Images\Bulk-Import\published.jpg)
  ![private1](Images\Bulk-Import\private1.jpg) |  ![private](Images\Bulk-Import\private.jpg)
  
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Featured**
 
@@ -170,7 +172,7 @@ In the CSV file, only 2 values can be entered:
 
 **By default, the entry = "0" for all products as at SOI this functionality is not required.**
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Visibility in Catalog**
@@ -181,7 +183,7 @@ By default, the entry on CSV = "visible"
 
 ![catalogvisibility](Images\Bulk-Import\catalogvisibility.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Short Description**
 
@@ -189,7 +191,7 @@ By default, the entry on CSV = "visible"
 
 The short description is not required so this field is left blank for all products.
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Description**
 
@@ -212,7 +214,7 @@ On the backend, text shows as below:
 
 ![desc](Images\Bulk-Import\desc.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Date Sale price starts/ends**
 
@@ -229,7 +231,7 @@ Simple | Variable | Variation
 
 >   **NEVER USE WRONG DATE FORMAT**
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Tax Status**
 
@@ -242,7 +244,7 @@ Entry in CSV | As updated in Backend
 ---------|---------
  ![taxstatus](Images\Bulk-Import\taxstatus.jpg) | ![taxstatus1](Images\Bulk-Import\taxstatus1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Tax Class**
 
@@ -256,16 +258,17 @@ Entry in CSV |  As updated in Backend
  ![taxclass](Images\Bulk-Import\taxclass.jpg) |   ![taxclass1](Images\Bulk-Import\taxclass1.jpg)
 
 
-**Points to remember:**
+**Points to Remember:**
 
 -   Pre-defined HSN Codes are entered in the tax class field.
 -   HSN Code to be used should be already added in the system.
 
     ![taxrates](Images\Bulk-Import\taxrate.jpg)
 
--   If HSN code not added, follow the **Tax Rate Setup**
 
-[Back to Table](#csv-columns-and-formatting)
+-   If HSN code not added, follow the [**Tax Rate Setup**](../WooCommerce-Settings/Tax-Rate-Setup.md)
+
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **In stock?**
 
@@ -280,7 +283,7 @@ In the CSV file, only 2 values can be entered:
 
 >   **Note** - **If marking "1", make sure the Stock Value is greater than 1**
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Stock**
 
@@ -295,7 +298,7 @@ Simple | Variable | Variation
 ![simplestock1](Images\Bulk-Import\simplestock1.jpg) |  |![variationstock1](Images\Bulk-Import\variationstock1.jpg)
 ![simplestock](Images\Bulk-Import\simplestock.jpg) ||![variationstock](Images\Bulk-Import\variationstock.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Low Stock Amount**
@@ -308,7 +311,7 @@ Simple | Variable | Variation
  This value is updated in the Inventory section | This value is updated in the Inventory section | Value is updated at variable level only
  ![simplelowstock](Images\Bulk-Import\simplelowstock.jpg) | ![variablelowstock](Images\Bulk-Import\variablelowstock.jpg) | 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Backorders Allowed?**
 
@@ -328,7 +331,7 @@ Entry in CSV  | As updated in Backend
  ![variablebackorder](Images\Bulk-Import\variablebackorder.jpg) | ![variablebackorder1](Images\Bulk-Import\variablebackorder1.jpg)  
  ![variationbackorder](Images\Bulk-Import\variationbackorder.jpg) | ![variationbackorder1](Images\Bulk-Import\variationbackorder1.jpg)   
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Sold Individually**
 
@@ -341,7 +344,7 @@ In the CSV file, only 2 values can be entered:
 
 **Since this functionality is not required for all SOI products, by default the value remains "0"**
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Weight**
 
@@ -356,7 +359,7 @@ Simple| Variable | Variation
  ![simpleweight1](Images\Bulk-Import\simpleweight1.jpg) |  | ![variaitonweight1](Images\Bulk-Import\variationweight1.jpg)
  ![simpleweight](Images\Bulk-Import\simpleweight.jpg) | ![variableweight](Images\Bulk-Import\variableweight.jpg) | ![variaitonweight](Images\Bulk-Import\variationweight.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Length**
 
@@ -386,7 +389,7 @@ Simple| Variable | Variation
  ![simplemeasurement](Images\Bulk-Import\simplemeasurement.jpg) | ![variablemeasurement](Images\Bulk-Import\variablemeasurement.jpg) | ![variaitonmeasurement](Images\Bulk-Import\variationmeasurement.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Allow Customer Reviews?** 
 
@@ -401,7 +404,7 @@ In the CSV file, only 2 values can be entered:
 
 **Since this functionality is not required for all SOI products, by default the value remains "0"**
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Purchase Note**
@@ -420,7 +423,7 @@ Simple | Variable | Variation
  Value is updated in the General section | Value is updated at variaiton level | Value updated in respective variations data
  ![simplesale](Images\Bulk-Import\simplesaleprice.jpg) | ![variablesale](Images\Bulk-Import\variablesaleprice.jpg) | ![variationsale](Images\Bulk-Import\variationsaleprice.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Regular Price**
 
@@ -434,7 +437,7 @@ Simple | Variable | Variation
  ![simpleregular](Images\Bulk-Import\simpleregular.jpg) | ![variableregular](Images\Bulk-Import\variableregular.jpg) | ![variationregular](Images\Bulk-Import\variationregular.jpg)
  ![simpleregularprice](Images\Bulk-Import\simpleregularprice.jpg) | ![variableregularprice](Images\Bulk-Import\variableregularprice.jpg) | ![variationregularprice](Images\Bulk-Import\variationregularprice.jpg)   
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Categories**
 
@@ -469,7 +472,7 @@ Entry in CSV | As updated in Backend
  ![category2](Images\Bulk-Import\category2.jpg) | ![category3](Images\Bulk-Import\category3.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Tags**
@@ -483,7 +486,7 @@ Entry in CSV| As updated in Backend
 ---------|---------
  ![tags](Images\Bulk-Import\tags.jpg) | ![tags1](Images\Bulk-Import\tags1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Shipping Class**
@@ -503,7 +506,7 @@ Entry in CSV | As updated in Backend
  Entry is required for all products | Updations happen as per entry
  ![shippingclass](Images\Bulk-Import\shippingclass.jpg) | ![shippingclass1](Images\Bulk-Import\shippingclass1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Images**
 
@@ -524,7 +527,7 @@ Entry in CSV |  As updated in Backend
  Entry required only for Simple and Variable products | Updated under respective products
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Download Limit** 
@@ -552,7 +555,7 @@ The below example explains this:
 
 ![parent](Images\Bulk-Import\parent.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Grouped Products** 
 
@@ -566,7 +569,9 @@ Up-sells are displayed on the product details page. These are products that are 
 
 This field will include the **Product Id** or **Parent SKU** of products to be shown and should be seperated by a comma.
 
-[Back to Table](#csv-columns-and-formatting)
+A maximum of 3 products can be added.
+
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Cross-Sells**  
@@ -600,7 +605,7 @@ Entry in CSV | As Updated in Backend | As appears on Frontend
 ---------|----------|---------
  ![position](Images\Bulk-Import\position.jpg) | ![position1](Images\Bulk-Import\position1.jpg) | ![position2](Images\Bulk-Import\position2.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Color Taxonomy**
@@ -618,7 +623,7 @@ Entry in CSV | As updated in Backend | As appears on Frontend
 ---------|----------|--------
  ![colors](Images\Bulk-Import\color.jpg) | ![colors1](Images\Bulk-Import\colors1.jpg)| ![colorfilter](Images\Bulk-Import\colorfilter.jpg) 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Material Taxonomy**
@@ -635,7 +640,7 @@ Entry in CSV | As updated in Backend| As appears on Frontend
 ---------|----------|-------
  ![material](Images\Bulk-Import\material.jpg) | ![materials1](Images\Bulk-Import\materials1.jpg) | ![materialfilter](Images\Bulk-Import\materialfilter.jpg) 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute Color**
@@ -652,7 +657,7 @@ Product Type | Entry In CSV |  As appears on Frontend
 Variable |![variableattributecolor](Images\Bulk-Import\variableattributecolor.jpg) | ![attributecolor2](Images\Bulk-Import\attributecolor2.jpg) 
 Variation |![attributecolor](Images\Bulk-Import\attributecolor.jpg) | ![attributecolor2](Images\Bulk-Import\attributecolor2.jpg) 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute 1 name**
@@ -666,7 +671,7 @@ Simple | Variable | Variation
 ---------|----------|---------
  Required - Size | Required - Size | Required - Size
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Attribute 1 Value(s)**
 
@@ -680,7 +685,7 @@ Simple | Variable | Variation
  This will have a single entry (could be a measurement or size) | Here all possible variation values to be entered | Enter only variation specific value
  ![simpleattribute1value](Images\Bulk-Import\simpleattribute1value.jpg) | ![variableattribute1value](Images\Bulk-Import\variableattribute1value.jpg) | ![variationattribute1value](Images\Bulk-Import\variationattribute1value.jpg)
  
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute 1 visible**
@@ -701,7 +706,7 @@ Entry in CSV | As updated in Backend
  ![attribute1visible](Images\Bulk-Import\attribute1visible.jpg) | ![attribute1visible1](Images\Bulk-Import\attribute1visible1.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Attribute 1 global**
 
@@ -714,7 +719,7 @@ In the CSV file, only 2 values can be entered:
 
 This field is updated for all rows - Simple, Variable, Variation. The value should always be "1" 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Meta: _wpv_contains_gutenberg_views - NA**
 
@@ -733,7 +738,7 @@ Entry in CSV | As updated in Backend
 ---------|----------
  ![shoulder](Images\Bulk-Import\shoulder.jpg) | ![shoulder1](Images\Bulk-Import\shoulder1.jpg) 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 ### **Meta: Bust**
 
@@ -747,7 +752,7 @@ Entry in CSV | As updated in Backend
 ---------|----------
  ![bust](Images\Bulk-Import\bust.jpg) | ![bust1](Images\Bulk-Import\bust1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: Waist**
@@ -762,7 +767,7 @@ Entry in CSV | As updated in Backend
 ---------|----------
  ![waist](Images\Bulk-Import\waist.jpg) | ![waist1](Images\Bulk-Import\waist1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: Hip**
@@ -773,7 +778,7 @@ This field consists of the hip measurement for all products in the **Lowers** (s
 -   The hip measurement helps in differentiating between variation sizes.
 -   Measurement unit to be used is "inch".
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: Length**
@@ -788,7 +793,7 @@ Entry in CSV | As updated in Backend
 ---------|----------
  ![length](Images\Bulk-Import\length.jpg) | ![length1](Images\Bulk-Import\length1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: _wc_additional_variation_images**
@@ -803,7 +808,7 @@ Entry in CSV | As updated in Backend
 ---------|----------
  ![additionalimages](Images\Bulk-Import\additionalimages.jpg) | ![additionalimages1](Images\Bulk-Import\additionalimages1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: _wp_old_date - NA**
@@ -837,7 +842,7 @@ Points of consideration while entering text in this field:
 -   To give line break : add "br in <>" at end of line twice. This will insert a blank line and take you to the next line.
 -   To make text bold : add "strong in <>" at the start and end of text. 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: wpcf-delivery-exchange**
@@ -851,7 +856,7 @@ Points of consideration while entering text in this field:
 -   To give line break : add "br in <>" at end of line twice. This will insert a blank line and take you to the next line.
 -   To make text bold : add "strong in <>" at the start and end of text.
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: wpcf-size-fit** 
@@ -872,7 +877,7 @@ Entry in CSV | As update in Backend | As appears on Frontend
  ![delexc1](Images\Bulk-Import\deliveryexchange1.jpg) | ![delexc](Images\Bulk-Import\delexc.jpg) | ![delexc2](Images\Bulk-Import\deliveryexchange2.jpg)
 
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Meta: _views_template - NA**
@@ -890,7 +895,7 @@ Simple | Variable | Variation
 ---------|----------|---------
  Required - Color | Required - Color | Required - Color
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute 2 Value**
@@ -905,7 +910,7 @@ Simple | Variable | Variation
  This will have a single entry (only 1 color) | Here all possible variation values to be entered | Enter only variation specific value
  ![simpleattribute2value](Images\Bulk-Import\simpleattribute2value.jpg) | ![variableattribute2value](Images\Bulk-Import\variableattribute2value.jpg) | ![variationattribute2value](Images\Bulk-Import\variationattribute2value.jpg)
  
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute 2 visible**
@@ -925,7 +930,7 @@ Entry in CSV | As updated in Backend
 ---------|---------
  ![attribute2visible](Images\Bulk-Import\attribute2visible.jpg) | ![attribute2visible1](Images\Bulk-Import\attribute2visible1.jpg)
 
-[Back to Table](#csv-columns-and-formatting)
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 ### **Attribute 2 global**
@@ -939,8 +944,7 @@ In the CSV file, only 2 values can be entered:
 
 This field is updated for all rows - Simple, Variable, Variation. The value should always be "1" 
 
-[Back to Table](#csv-columns-and-formatting)
-
+[**Back to Table**](#csv-columns-and-formatting)
 
 
 
