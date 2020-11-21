@@ -15,6 +15,7 @@ Adding a product involves the below steps:
 
     ![products](Images\products.jpg)
 
+
 5.  Click -> **Add New**. This opens a new interface, where you can add Product name, description, product image, product category, tags etc. A sample screenshot is below:
 
     ![add new](Images\addnew.jpg)
