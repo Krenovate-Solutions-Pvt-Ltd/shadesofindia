@@ -567,9 +567,14 @@ This field is not required and is left blank.
 
 Up-sells are displayed on the product details page. These are products that are displayed to encourage users to upgrade, based on the product they are currently viewing. 
 
-This field will include the **Product Id** or **Parent SKU** of products to be shown and should be seperated by a comma.
+This field will include the **Product Id** or **Parent SKU** of products to be shown and should be seperated by a comma. 
 
-A maximum of 3 products can be added.
+To enter data, follow below format:
+
+-   To enter a Product Id - ID:number
+-   To enter SKU : sku-number
+
+**A maximum of 3 products can be added.**
 
 [**Back to Table**](#csv-columns-and-formatting)
 
