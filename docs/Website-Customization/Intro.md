@@ -35,6 +35,7 @@ Below, we will see steps to add/edit/update the Intro section of the website:
 
     ![select page](images\Intro\selectpage.jpg)
 
+##  **Intro Settings**
 
 ###  **Intro Screen**
 
@@ -43,11 +44,19 @@ Under the Intro section, the following details can be edited:
 ![intro screen](images\Intro\introscreen.jpg)
 
 
-1.  **Intro Logo :** It is the logo that shows on the top of the page.
-2.  **Intro Corner Text :** This is the text which appears on the bottom right corner. To insert a line spacing here -> add "**br** in <>" where space needs to be inserted.
-3.  **Background Type :** The background type can be of 2 types:
+####    **Intro Logo** 
 
-    -   **Video :** A video can be used as a background. 
+-   It is the logo that shows on the top of the page.
+
+####    **Intro Corner Text** 
+
+-   This is the text which appears on the bottom right corner. To insert a line spacing here -> add "**br** in <>" where space needs to be inserted.
+
+####    **Background Type** 
+
+The background type can be of 2 types:
+
+-   **Video :** A video can be used as a background. 
     -   **Background Video Source :** A video to be used can have 2 sources:
 
         -   **Vimeo :** A video link from Vimeo can be inserted in the Desktop and Mobile fields.
@@ -60,9 +69,9 @@ Under the Intro section, the following details can be edited:
             ![upload](images\Intro\upload.jpg)
 
 
-    -   **Image :** Choose the image option to insert an image as background. You can select the image from the list in the Desktop and Mobile fields.
+-   **Image :** Choose the image option to insert an image as background. You can select the image from the list in the Desktop and Mobile fields.
 
-        ![imageupload](images\Intro\imageupload.jpg)
+    ![imageupload](images\Intro\imageupload.jpg)
 
 
 ##  **Publish/Update**

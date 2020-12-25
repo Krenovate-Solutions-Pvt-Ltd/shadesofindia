@@ -19,50 +19,89 @@ Follow the below steps to create/update a Collection:
 
     ![dashboard](images\Collection\dashboard.jpg)
     
-5.  The following fields need to be filled:
+##  **Collection Settings**
 
-    ![collection fields](images\Collection\collectionfields.jpg)
-    ![collection listing](images\Collection\collectionlisting.jpg)
+The following fields need to be filled:
 
-    -   **Collection Name** : This is the name of the collection which shows on the main collection page. Eg. -Women's Clothing 
-    -   **Collection Background Desktop** : This is the collection background image for desktop website. Click on 'Select Image'.
+![collection fields](images\Collection\collectionfields.jpg)
+![collection listing](images\Collection\collectionlisting.jpg)
 
-        ![collection background](images\Collection\collectionbckgrnd.jpg)
+### **Collection Name**
 
-    -   **Collection Background Mobile** : This is the collection background image for mobile website. Click on 'Select Image'.
-    -   **Collection Listings** : These are the various collection categories/lists that show on the collections main page. Clicking on any of these categories, takes the visitor to the respective collection's product page. To create each listing, the below fields need to be filled:
+-   This is the name of the collection which shows on the main collection page. Eg. -Women's Clothing 
 
-        ![listing fields](images\Collection\collectionlistingfields.jpg)
-        ![listing fields1](images\Collection\collectionlistingfields1.jpg)
+### **Collection Background Desktop** 
 
-        -   **Select Category** : Select the category from list which needs to be listed on the collections page.
-        -   **Collection Single Page Background Image - Desktop** :This is the category background image for desktop website. Click on 'Select Image'.
-        -   **Collection Single Page Background Image - Mobile** : This is the category background image for mobile website. Click on 'Select Image'.
-        -   **Images Slider** : This is a slide show of images related to the category. Here multiple images can be selected. Follow the below steps to add a slider:
+-   This is the collection background image for desktop website. Click on 'Select Image'.
 
-            -   Click on **Create**
+    ![collection background](images\Collection\collectionbckgrnd.jpg)
 
-                ![slider create](images\Collection\imageslider.jpg)
+### **Collection Background Mobile**
 
-            -   **Image** : Select image from list.
-            -   **Image Ordering** : This is the placement/sequence of the image in the slider. Always enter number value.
+-   This is the collection background image for mobile website. Click on 'Select Image'.
 
-                ![slider fields](images\Collection\imagesliderfields.jpg)
+### **Collection Listings**
 
-        -   **Collection Quote Text** : Here a quote describing the category can be added.
-        -   **Collection Quote Author** : Enter the Author name.
-        -   **Collection Short Description** : This is a brief description about the respective category.
-        -   **Collection Long Description** : This gives a detailed description about the respective category. **This description shows on the category product page.**
+-   These are the various collection categories/lists that show on the collections main page. Clicking on any of these categories, takes the visitor to the respective collection's product page. To create each listing, the below fields need to be filled:
 
-            ![long description](images\Collection\longdesc.jpg)
+    ![listing fields](images\Collection\collectionlistingfields.jpg)
+    ![listing fields1](images\Collection\collectionlistingfields1.jpg)
 
-        -   **Button Text** : This is the text that shows on the button.
-        -   **Position** : This defines the placement/sequence of the category listing. Always enter a number value.
+####    **Select Category**
+
+-   Select the category from list which needs to be listed on the collections page.
+
+####    **Collection Single Page Background Image - Desktop**
+
+-   This is the category background image for desktop website. Click on 'Select Image'.
+
+####    **Collection Single Page Background Image - Mobile**
+
+This is the category background image for mobile website. Click on 'Select Image'.
+
+####    **Images Slider**
+
+-   This is a slide show of images related to the category. Here multiple images can be selected. Follow the below steps to add a slider:
+
+    -   Click on **Create**
+
+        ![slider create](images\Collection\imageslider.jpg)
+
+    -   **Image** : Select image from list.
+    -   **Image Ordering** : This is the placement/sequence of the image in the slider. Always enter number value.
+
+        ![slider fields](images\Collection\imagesliderfields.jpg)
+
+####    **Collection Quote Text**
+
+-   Here a quote describing the category can be added.
+
+####    **Collection Quote Author**
+
+-   Enter the Author name.
+
+####    **Collection Short Description**
+
+-   This is a brief description about the respective category.
+
+####    **Collection Long Description**
+
+-   The long description is a detailed text about the respective category. **This description shows on the category product page.**
+
+    ![long description](images\Collection\longdesc.jpg)
+
+####    **Button Text**
+
+-   This is the text that shows on the button.
+
+####    **Position**
+
+-   This defines the placement/sequence of the category listing. Always enter a number value.
 
 
-    Below is how the collection listing fields are placed on the website collections page:
+Below is how the collection listing fields are placed on the website collections page:
     
-    ![listing final](images\Collection\listingfinal.jpg)
+![listing final](images\Collection\listingfinal.jpg)
 
 ##  **Publish/Update**
 

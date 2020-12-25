@@ -15,9 +15,9 @@ nav:
     - Bulk Export: 'Products/Bulk-Export.md'
   - WooCommerce Settings: 
     - Tax Rate Setup: 'WooCommerce-Settings/Tax-Rate-Setup.md'
-  - 2FA Authy Login: '2FA-Authy-Login.md'
   - Delhivery: 'Delhivery.md'
   - Coupons: 'Coupons.md'
+  - 2FA Authy Login: '2FA-Authy-Login.md'
 theme:
   name: material
   features:

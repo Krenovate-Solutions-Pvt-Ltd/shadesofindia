@@ -13,7 +13,7 @@ A sample CSV file is below:
 
 ![sample](Images\Bulk-Import\sample.jpg)
 
-
+:bookmark: <a href="https://docs.google.com/spreadsheets/d/1_jwGTcLCAJ9FNmFRBwTJf4qFRKkI2P1PhBT_nUz-A38/edit?usp=sharing" target="_blank">**Sample CSV**</a> 
 
 ##  **CSV columns and formatting**
 
