@@ -426,6 +426,75 @@
     Tax Rate Attributes
   </a>
   
+    <nav class="md-nav" aria-label="Tax Rate Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#country-code" class="md-nav__link">
+    Country Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-code" class="md-nav__link">
+    State Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zippostcode" class="md-nav__link">
+    ZIP/Postcode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#city" class="md-nav__link">
+    City
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rate" class="md-nav__link">
+    Rate %
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-name" class="md-nav__link">
+    Tax Name –
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priority" class="md-nav__link">
+    Priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compound" class="md-nav__link">
+    Compound
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shipping" class="md-nav__link">
+    Shipping
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
+  
 </li>
         
           <li class="md-nav__item">
@@ -458,18 +527,6 @@
 
 
   <li class="md-nav__item">
-    <a href="../../2FA-Authy-Login/" title="2FA Authy Login" class="md-nav__link">
-      2FA Authy Login
-    </a>
-  </li>
-
-    
-      
-      
-      
-
-
-  <li class="md-nav__item">
     <a href="../../Delhivery/" title="Delhivery" class="md-nav__link">
       Delhivery
     </a>
@@ -484,6 +541,18 @@
   <li class="md-nav__item">
     <a href="../../Coupons/" title="Coupons" class="md-nav__link">
       Coupons
+    </a>
+  </li>
+
+    
+      
+      
+      
+
+
+  <li class="md-nav__item">
+    <a href="../../2FA-Authy-Login/" title="2FA Authy Login" class="md-nav__link">
+      2FA Authy Login
     </a>
   </li>
 
@@ -525,6 +594,75 @@
   <a href="#tax-rate-attributes" class="md-nav__link">
     Tax Rate Attributes
   </a>
+  
+    <nav class="md-nav" aria-label="Tax Rate Attributes">
+      <ul class="md-nav__list">
+        
+          <li class="md-nav__item">
+  <a href="#country-code" class="md-nav__link">
+    Country Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#state-code" class="md-nav__link">
+    State Code
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#zippostcode" class="md-nav__link">
+    ZIP/Postcode
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#city" class="md-nav__link">
+    City
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#rate" class="md-nav__link">
+    Rate %
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#tax-name" class="md-nav__link">
+    Tax Name –
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#priority" class="md-nav__link">
+    Priority
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#compound" class="md-nav__link">
+    Compound
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
+  <a href="#shipping" class="md-nav__link">
+    Shipping
+  </a>
+  
+</li>
+        
+      </ul>
+    </nav>
   
 </li>
         
@@ -573,23 +711,28 @@
 <h3 id="tax-rate-attributes"><strong>Tax Rate Attributes</strong><a class="headerlink" href="#tax-rate-attributes" title="Permanent link">&para;</a></h3>
 <p>Each tax rate has these attributes:</p>
 <p><img alt="tax rate" src="../images/taxrate.jpg" /></p>
-<ol>
-<li><strong>Country Code</strong> – 2 digit country code for the rate. Use ISO 3166-1 alpha-2 codes. Leave blank (*) to apply to all countries. Eg: IN = India</li>
-<li><strong>State Code</strong> – 2 digit state code for the rate. See i18n/states/COUNTRYCODE.php for supported states. Use a 2 digit abbreviation e.g. UP = Uttar Pradesh. Leave blank (*) to apply to all states.</li>
-<li><strong>ZIP/Postcode</strong> – Enter postcodes for the rate. You may separate multiple values with a semi-colon, use wildcards to match several postcodes (e.g. PE* would match all postcodes starting with PE), and use numeric ranges (e.g. 2000…3000). Leave blank (*) to apply to all postcodes.</li>
-<li><strong>City</strong> – Semi-colon separated list of cities for the rate. Leave blank (*) to apply to all cities.</li>
-<li><strong>Rate %</strong> – Enter the tax rate, for example, 20.000 for a tax rate of 20%.</li>
-<li><strong>Tax Name</strong> – Name your tax, e.g. VAT</li>
-<li><strong>Priority</strong> – Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate.</li>
-<li><strong>Compound</strong> – If this rate is compound (applied on top of all prior taxes) check this box.</li>
-<li><strong>Shipping</strong> – If this rate also applies to shipping, check this box.</li>
-</ol>
+<h4 id="country-code"><strong>Country Code</strong><a class="headerlink" href="#country-code" title="Permanent link">&para;</a></h4>
+<p>This is a 2 digit country code for the rate. Use ISO 3166-1 alpha-2 codes. Leave blank (*) to apply to all countries. Eg: IN = India</p>
+<h4 id="state-code"><strong>State Code</strong><a class="headerlink" href="#state-code" title="Permanent link">&para;</a></h4>
+<p>This is a 2 digit state code for the rate. See i18n/states/COUNTRYCODE.php for supported states. Use a 2 digit abbreviation e.g. UP = Uttar Pradesh. Leave blank (*) to apply to all states.</p>
+<h4 id="zippostcode"><strong>ZIP/Postcode</strong><a class="headerlink" href="#zippostcode" title="Permanent link">&para;</a></h4>
+<p>Enter postcodes for the rate. You may separate multiple values with a semi-colon, use wildcards to match several postcodes (e.g. PE* would match all postcodes starting with PE), and use numeric ranges (e.g. 2000…3000). Leave blank (*) to apply to all postcodes.</p>
+<h4 id="city"><strong>City</strong><a class="headerlink" href="#city" title="Permanent link">&para;</a></h4>
+<p>Semi-colon separated list of cities for the rate. Leave blank (*) to apply to all cities.</p>
+<h4 id="rate"><strong>Rate %</strong><a class="headerlink" href="#rate" title="Permanent link">&para;</a></h4>
+<p>Enter the tax rate, for example, 20.000 for a tax rate of 20%.</p>
+<h4 id="tax-name"><strong>Tax Name</strong> –<a class="headerlink" href="#tax-name" title="Permanent link">&para;</a></h4>
+<p>In this field, name your tax, e.g. VAT</p>
+<h4 id="priority"><strong>Priority</strong><a class="headerlink" href="#priority" title="Permanent link">&para;</a></h4>
+<p>Choose a priority for this tax rate. Only 1 matching rate per priority will be used. To define multiple tax rates for a single area you need to specify a different priority per rate.</p>
+<h4 id="compound"><strong>Compound</strong><a class="headerlink" href="#compound" title="Permanent link">&para;</a></h4>
+<p>If this rate is compound (applied on top of all prior taxes) check this box.</p>
+<h4 id="shipping"><strong>Shipping</strong><a class="headerlink" href="#shipping" title="Permanent link">&para;</a></h4>
+<p>If this rate also applies to shipping, check this box.</p>
 <h3 id="tax-importexport-csv"><strong>Tax Import/Export CSV</strong><a class="headerlink" href="#tax-importexport-csv" title="Permanent link">&para;</a></h3>
-<p>In order to add/edit tax rates, there is option of Import CSv and Export CSV.</p>
+<p>In order to add/edit tax rates, there is option of Import CSV and Export CSV.</p>
 <ul>
-<li>
-<p><strong>Multiple HSN Codes</strong> (Tax rates) can be imported in one CSV file.</p>
-</li>
+<li><strong>Multiple HSN Codes</strong> (Tax rates) can be imported in one CSV file.</li>
 <li>
 <p>The CSV file for importing requires 10 columns:</p>
 <ul>
@@ -620,7 +763,7 @@
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">November 23, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 25, 2020</span>
     
   </small>
 </div>
@@ -658,13 +801,13 @@
           </a>
         
         
-          <a href="../../2FA-Authy-Login/" title="2FA Authy Login" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
+          <a href="../../Delhivery/" title="Delhivery" class="md-footer-nav__link md-footer-nav__link--next" rel="next">
             <div class="md-footer-nav__title">
               <div class="md-ellipsis">
                 <span class="md-footer-nav__direction">
                   Next
                 </span>
-                2FA Authy Login
+                Delhivery
               </div>
             </div>
             <div class="md-footer-nav__button md-icon">
