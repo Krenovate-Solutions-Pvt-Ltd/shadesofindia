@@ -20,7 +20,10 @@ Let's see the steps to create and maintain the footer for the website:
 
     ![dashboard](images\Footer\dashboard.jpg)
 
-This section has 4 parts that need to be added. Let's discuss them one by one:
+
+##  **Footer Settings**
+
+The footer section has 4 parts that need to be added. Let's discuss them one by one:
 
 ### **Columns**
 
@@ -28,27 +31,39 @@ Four columns of key information can be created here. Each column has the followi
 
 ![column fields](images\Footer\column.jpg)
 
-1.  **Column Name** : This is the heading of the respective columns.
-2.  **Column Listing** : Each column can have multiple listings. To create lists, below fields need to be filled:
+####    **Column Name**
+
+-   This is the heading of the respective columns.
+
+####    **Column Listing**
+
+-   Each column can have multiple listings. To create lists, below fields need to be filled:
 
     ![column listing](images\Footer\columnlistingfields.jpg)
 
-    -   **Column List Item** : This is the name of the list item.
-    -   **Column List Item URL** : This is the URL which when clicked takes the visitor to the respective page. In place of entering the complete link, we have to enter the URL#. To copy this URL# follow the below steps:
+#####   **Column List Item**
 
-        -   Go to -> **Pages**
+-   This is the name of the list item.
 
-            ![pages](images\Footer\pages.jpg)
+#####   **Column List Item URL**
 
-        -   Open the respective page in Edit mode.
+-   This is the URL which when clicked takes the visitor to the respective page. In place of entering the complete link, we have to enter the URL#. To copy this URL# follow the below steps:
 
-            ![page edit](images\Footer\pageedit.jpg)
+    -   Go to -> **Pages**
 
-        -   Copy the URL# in the bar. Enter this number in the list item url field.
+        ![pages](images\Footer\pages.jpg)
 
-            ![url id](images\Footer\urlid.jpg)
+    -   Open the respective page in Edit mode.
 
-    -   **Column List Ordering** : This defines the placement of the list item. Always enter a number value.
+        ![page edit](images\Footer\pageedit.jpg)
+
+    -   Copy the URL# in the bar. Enter this number in the list item url field.
+
+        ![url id](images\Footer\urlid.jpg)
+
+#####   **Column List Ordering**
+
+-   This defines the placement of the list item. Always enter a number value.
 
 ### **Subscribe**
 
@@ -56,8 +71,13 @@ This column provides the option of subscribing to the newsletter. The following 
 
 ![subscribe fields](images\Footer\subscribe.jpg)
 
-1.  **Subscribe Title** : This is the heading of the column.
-2.  **Subscribe Text** : Here, a brief text about the subscription is mentioned.
+####    **Subscribe Title**
+
+-   This is the heading of the column.
+
+####    **Subscribe Text**
+
+-   Here, a brief text about the subscription is mentioned.
 
 ### **Copyright Text**
 
@@ -74,9 +94,17 @@ The extreme bottom right panel of the footer contains the SOI social media icons
 
 ![socialmedia fields](images\Footer\socialmediafields.jpg)
 
-1.  **Social Media Icon** : This is the icon for the social media app to be placed in the footer. Select image from list.
-2.  **Social Media Link** : Add the link for the social media page here.
-3.  **Position** : This field defines the placement of the icon. Always enter number values here.
+####    **Social Media Icon**
+
+-   This is the icon for the social media app to be placed in the footer. Select image from list.
+
+####    **Social Media Link**
+
+-   Add the link for the social media page here.
+
+####    **Position**
+
+-   This field defines the placement of the icon. Always enter number values here.
 
 This is how the fields are placed on the website footer:
 
