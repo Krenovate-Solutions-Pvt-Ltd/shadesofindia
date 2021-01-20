@@ -209,6 +209,18 @@
 
 
   <li class="md-nav__item">
+    <a href="../../Website-Customization/Header/" title="Header" class="md-nav__link">
+      Header
+    </a>
+  </li>
+
+        
+          
+          
+          
+
+
+  <li class="md-nav__item">
     <a href="../../Website-Customization/Footer/" title="Footer" class="md-nav__link">
       Footer
     </a>
@@ -1470,12 +1482,15 @@
 <h2 id="introduction"><strong>Introduction</strong><a class="headerlink" href="#introduction" title="Permanent link">&para;</a></h2>
 <p>The Import/Export feature in the Admin panel, allows the administrator to create/upload/edit bulk products in one go.</p>
 <p>To do a bulk import/export, an excel file ".CSV" is created. All the required data is populated in this CSV file in a pre-defined format.  The file has columns dedicated to each field corresponding to the fields in the backend.</p>
-<p>Maintaining the format of all columns is of utmost importance in order import all data correctly.</p>
+<p><strong>Maintaining the format of all columns is of utmost importance in order import all data correctly.</strong></p>
 <p>A sample CSV file is below:</p>
 <p><img alt="sample" src="../Images/Bulk-Import/sample.jpg" /></p>
-<p><img alt="🔖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f516.svg" title=":bookmark:" /> <a href="https://docs.google.com/spreadsheets/d/1_jwGTcLCAJ9FNmFRBwTJf4qFRKkI2P1PhBT_nUz-A38/edit?usp=sharing" target="_blank"><strong>Sample CSV</strong></a> </p>
+<p><img alt="🔖" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f516.svg" title=":bookmark:" /> <a href="https://docs.google.com/spreadsheets/d/1ntkeiv7Bbo0iwmXxi-bWLJkwDmcTQwXbizK9bbg1F6Q/edit?usp=sharing" target="_blank"><strong>Sample CSV</strong></a> </p>
 <h2 id="csv-columns-and-formatting"><strong>CSV columns and formatting</strong><a class="headerlink" href="#csv-columns-and-formatting" title="Permanent link">&para;</a></h2>
 <p>The below table gives a brief description of all the column fields of a CSV file:</p>
+<blockquote>
+<p><img alt="📝" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f4dd.svg" title=":memo:" /> <strong>Note</strong> - It is important to maintain the correct column names in the CSV file in order to map to the respective fields while importing. The table below provides the formats and names to be followed.</p>
+</blockquote>
 <table>
 <thead>
 <tr>
@@ -2033,7 +2048,7 @@
 </tbody>
 </table>
 <blockquote>
-<p><strong>Note</strong> - <strong>The date format to be followed always = "yyyy-mm-dd"</strong></p>
+<p><strong>Note</strong> - <strong>The date format to be followed always = "yyyy-mm-dd;hh<img alt="🇲🇲" class="twemoji" src="https://twemoji.maxcdn.com/v/latest/svg/1f1f2-1f1f2.svg" title=":mm:" />ss"</strong></p>
 <p><strong>NEVER USE WRONG DATE FORMAT</strong></p>
 </blockquote>
 <p><a href="#csv-columns-and-formatting"><strong>Back to Table</strong></a></p>
@@ -2410,8 +2425,7 @@ L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
 <p>Some tips to fill this field:</p>
 <ul>
 <li>The complete image URL has to be entered. </li>
-<li>An Image Id/name can also be entered.</li>
-<li>Multiple URL's/Id's can be entered seperated by commas. </li>
+<li>Multiple URL's can be entered seperated by commas. </li>
 <li>the 1<sup>st</sup> URL entered will represent the Product/featured image.</li>
 <li>All other URL's represent the Product Gallery images.</li>
 </ul>
@@ -2469,7 +2483,11 @@ L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
 <h3 id="button-text-na"><strong>Button Text - NA</strong><a class="headerlink" href="#button-text-na" title="Permanent link">&para;</a></h3>
 <p>This field is not required and is left blank.</p>
 <h3 id="position"><strong>Position</strong><a class="headerlink" href="#position" title="Permanent link">&para;</a></h3>
-<p>The number entered in the Position field, defines the position of the variations of a variable product. It decides the sequence in which the variations will show on the front-end/website product page.</p>
+<p>The number entered in the Position field, helps decide the order of products on the PLP. </p>
+<ul>
+<li>If position = number value : the product will be listed on that position.</li>
+<li>If position = 0 : the product will be randomly listed.</li>
+</ul>
 <table>
 <thead>
 <tr>
@@ -2480,9 +2498,9 @@ L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
 </thead>
 <tbody>
 <tr>
+<td>Optional</td>
+<td>Optional</td>
 <td>Not required</td>
-<td>Not required</td>
-<td>Required - Mandatory</td>
 </tr>
 </tbody>
 </table>
@@ -2491,14 +2509,12 @@ L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
 <thead>
 <tr>
 <th>Entry in CSV</th>
-<th>As Updated in Backend</th>
 <th>As appears on Frontend</th>
 </tr>
 </thead>
 <tbody>
 <tr>
 <td><img alt="position" src="../Images/Bulk-Import/position.jpg" /></td>
-<td><img alt="position1" src="../Images/Bulk-Import/position1.jpg" /></td>
 <td><img alt="position2" src="../Images/Bulk-Import/position2.jpg" /></td>
 </tr>
 </tbody>
@@ -2915,7 +2931,7 @@ L1&gt;L2&gt;L3 = Sub-sub-category under the sub-category</p>
 <div class="md-source-date">
   <small>
     
-      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">December 25, 2020</span>
+      Last update: <span class="git-revision-date-localized-plugin git-revision-date-localized-plugin-date">January 20, 2021</span>
     
   </small>
 </div>
