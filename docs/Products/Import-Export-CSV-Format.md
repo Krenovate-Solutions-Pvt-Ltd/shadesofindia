@@ -7,18 +7,19 @@ The Import/Export feature in the Admin panel, allows the administrator to create
 
 To do a bulk import/export, an excel file ".CSV" is created. All the required data is populated in this CSV file in a pre-defined format.  The file has columns dedicated to each field corresponding to the fields in the backend.
 
-Maintaining the format of all columns is of utmost importance in order import all data correctly.
+**Maintaining the format of all columns is of utmost importance in order import all data correctly.**
 
 A sample CSV file is below:
 
 ![sample](Images\Bulk-Import\sample.jpg)
 
-:bookmark: <a href="https://docs.google.com/spreadsheets/d/1_jwGTcLCAJ9FNmFRBwTJf4qFRKkI2P1PhBT_nUz-A38/edit?usp=sharing" target="_blank">**Sample CSV**</a> 
+:bookmark: <a href="https://docs.google.com/spreadsheets/d/1ntkeiv7Bbo0iwmXxi-bWLJkwDmcTQwXbizK9bbg1F6Q/edit?usp=sharing" target="_blank">**Sample CSV**</a> 
 
 ##  **CSV columns and formatting**
 
 The below table gives a brief description of all the column fields of a CSV file:
 
+>   :memo: **Note** - It is important to maintain the correct column names in the CSV file in order to map to the respective fields while importing. The table below provides the formats and names to be followed.
 
 CSV Column Name | Maps to Product Property | Example | Notes
 ---------|----------|---------|-------
@@ -227,7 +228,7 @@ Simple | Variable | Variation
  ![simple schedule](Images\Bulk-Import\simplesaleschedule.jpg) |  | ![variation schedule](Images\Bulk-Import\variationsaleschedule.jpg)
 <br>
 
->   **Note** - **The date format to be followed always = "yyyy-mm-dd"**
+>   **Note** - **The date format to be followed always = "yyyy-mm-dd;hh:mm:ss"**
 
 >   **NEVER USE WRONG DATE FORMAT**
 
@@ -515,8 +516,7 @@ The Images field refers to the **Product Image** and **Product Gallery Images** 
 Some tips to fill this field:
 
 -   The complete image URL has to be entered. 
--   An Image Id/name can also be entered.
--   Multiple URL's/Id's can be entered seperated by commas. 
+-   Multiple URL's can be entered seperated by commas. 
 -   the 1st URL entered will represent the Product/featured image.
 -   All other URL's represent the Product Gallery images.
 
@@ -597,18 +597,20 @@ This field is not required and is left blank.
 
 ### **Position**
 
-The number entered in the Position field, defines the position of the variations of a variable product. It decides the sequence in which the variations will show on the front-end/website product page.
+The number entered in the Position field, helps decide the order of products on the PLP. 
 
+-   If position = number value : the product will be listed on that position.
+-   If position = 0 : the product will be randomly listed.
 
 Simple | Variable | Variation
 ---------|----------|---------
- Not required | Not required | Required - Mandatory
+ Optional | Optional | Not required
 
 <br>
 
-Entry in CSV | As Updated in Backend | As appears on Frontend
----------|----------|---------
- ![position](Images\Bulk-Import\position.jpg) | ![position1](Images\Bulk-Import\position1.jpg) | ![position2](Images\Bulk-Import\position2.jpg)
+Entry in CSV | As appears on Frontend
+---------|----------
+ ![position](Images\Bulk-Import\position.jpg) | ![position2](Images\Bulk-Import\position2.jpg)
 
 [**Back to Table**](#csv-columns-and-formatting)
 
@@ -950,6 +952,7 @@ In the CSV file, only 2 values can be entered:
 This field is updated for all rows - Simple, Variable, Variation. The value should always be "1" 
 
 [**Back to Table**](#csv-columns-and-formatting)
+
 
 
 
