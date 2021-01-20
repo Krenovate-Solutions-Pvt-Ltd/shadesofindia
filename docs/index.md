@@ -35,6 +35,11 @@ This manual will provide step-by-step instructions for the below mentioned tasks
 
 1.  [**Website Customization**](Website-Customization\Intro.md)
 2.  [**Products**](Products\Introduction.md)
+3.  [**WooCommerce Settings**](WooCommerce-Settings\Tax-Rate-Setup.md)
+4.  [**Menu**](Menu.md)
+5.  [**Sale**](Sale.md)
+6.  [**Delhivery**](Delhivery.md)
+7.  [**Coupons**](Coupons.md)
 
 
 
