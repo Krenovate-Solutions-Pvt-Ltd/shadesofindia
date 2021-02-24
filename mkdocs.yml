@@ -14,6 +14,8 @@ nav:
     - Import-Export CSV Format: 'Products/Import-Export-CSV-Format.md'
     - Bulk Import: 'Products/Bulk-Import.md'
     - Bulk Export: 'Products/Bulk-Export.md'
+    - Color Attribute: 'Products/Color-Attribute.md'
+    - Gift Card: 'Products/Gift-Card.md'
   - WooCommerce Settings: 
     - Tax Rate Setup: 'WooCommerce-Settings/Tax-Rate-Setup.md'
   - Menu: 'Menu.md'
