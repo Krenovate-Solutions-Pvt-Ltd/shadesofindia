@@ -571,7 +571,7 @@ This field will include the **Product Id** or **Parent SKU** of products to be s
 
 To enter data, follow below format:
 
--   To enter a Product Id - ID:number
+-   To enter a Product Id - id:number
 -   To enter SKU : sku-number
 
 **A maximum of 3 products can be added.**
