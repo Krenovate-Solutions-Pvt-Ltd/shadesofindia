@@ -5,6 +5,9 @@ nav:
     - Home: 'Website-Customization/Home.md'
     - Header: 'Website-Customization/Header.md'
     - Footer: 'Website-Customization/Footer.md'
+    - About Us: 'Website-Customization/About-Us.md'
+    - Stores: 'Website-Customization/Stores.md'
+    - Loyalty Programme: 'Website-Customization/Loyalty-Programme.md'
     - Collection: 'Website-Customization/Collection.md'
     - Pick of the Day: 'Website-Customization/Pick-of-the-Day.md'
     - WC Lookbooks: 'Website-Customization/WC-lookbooks.md'
@@ -22,7 +25,18 @@ nav:
   - Sale: 'Sale.md'
   - Delhivery: 'Delhivery.md'
   - Coupons: 'Coupons.md'
+  - Popups: 'Popups.md'
+  - SOI Reports: 'SOI-Reports.md'
   - 2FA Authy Login: '2FA-Authy-Login.md'
+  - WooCommerce Help: 
+    - Recommendation Engine: 'WooCommerce-Help/Recommendation-Engine.md'
+    - Multi-Currency: 'WooCommerce-Help/Multi-Currency.md'
+    - Wishlists: 'WooCommerce-Help/Wishlists.md'
+    - Multiple Addresses: 'WooCommerce-Help/Multiple-Addresses.md'
+    - UPS Shipping Plugin: 'WooCommerce-Help/UPS-Shipping-Plugin.md'
+  - Relevanssi: 'Relevanssi.md' 
+  - Automate Woo: 'Automate-Woo.md' 
+  - UpdraftPlus: 'UpdraftPlus.md' 
 theme:
   name: material
   features:
