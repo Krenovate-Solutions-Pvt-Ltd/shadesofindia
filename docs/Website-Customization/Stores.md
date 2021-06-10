@@ -63,4 +63,22 @@ Enter the Map url provided to you.
 
 ####    **Google Embed Code**
 
-Enter the embed code provided to you.
+Enter the embed code provided to you or follow the below steps to get an embed code:
+
+1.  Copy the Map url and paste in browser.
+
+    ![mapurl](../Website-Customization\images\Stores\mapurl.jpg)
+
+2.  Click on **share** icon
+
+    ![share](../Website-Customization\images\Stores\share.jpg)
+
+3.  Go to -> **Embed a Map**
+
+    ![embed](../Website-Customization\images\Stores\embed.jpg)
+
+4.  Copy the **src** attribute details
+
+    ![embedcode](../Website-Customization\images\Stores\embedcode.jpg)
+    
+5.  Paste it in the field.

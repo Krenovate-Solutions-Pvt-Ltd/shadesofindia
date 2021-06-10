@@ -30,4 +30,3 @@ To download the Orders report:
 
 Note: In the order report, user id = 0 means they are guest orders.
 
-<a href= "https://docs.google.com/spreadsheets/d/1RY-IchTmy920xh35dzVpmGodz7o415yBq0paa07wf34/edit?usp=sharing" target= "_blank">**Sample Orders Report**</a>
